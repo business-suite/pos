@@ -1,0 +1,4251 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * pos
+#
+# Translators:
+# ibinka lete <ilete@fpbidasoa.net>, 2016
+# Oihane Crucelaegui <oihanecruce@gmail.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo 9.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-18 14:06+0000\n"
+"PO-Revision-Date: 2016-02-14 14:40+0000\n"
+"Last-Translator: ibinka lete <ilete@fpbidasoa.net>\n"
+"Language-Team: Basque (http://www.transifex.com/odoo/odoo-9/language/eu/)\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: pos
+#: code:addons/pos/models/pos_order.py:642
+#, python-format
+msgid " REFUND"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_res_users_supplier_invoice_count
+msgid "# Vendor Bills"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_report_pos_order_nbr_lines
+msgid "# of Lines"
+msgstr "Lerro kop."
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_res_users_purchase_order_count
+msgid "# of Purchase Order"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1283
+#, python-format
+msgid "% discount"
+msgstr "Deskontua (%)"
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1410
+#: code:addons/pos/static/src/xml/pos.xml:1450
+#, python-format
+msgid "&nbsp;"
+msgstr "&nbsp;"
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_pos_form
+msgid "(update)"
+msgstr "(eguneratu)"
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_session_form
+msgid "+ Transactions"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:279
+#, python-format
+msgid "123.14 €"
+msgstr "123.14 €"
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_session_form
+msgid ""
+"<span class=\"o_stat_text\">Put</span>\n"
+"                                <span class=\"o_stat_text\">Money In</span>"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_session_form
+msgid "<span class=\"o_stat_text\">Set Closing Balance</span>"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_session_form
+msgid "<span class=\"o_stat_text\">Set Opening Balance</span>"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_session_form
+msgid ""
+"<span class=\"o_stat_text\">Take</span>\n"
+"                                <span class=\"o_stat_text\">Money Out</span>"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_config_kanban
+msgid "<span>Cash Balance</span>"
+msgstr "Esku diruzko saldoa"
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_config_kanban
+msgid "<span>Last Closing Date</span>"
+msgstr "Azken amaierako data"
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_config_kanban
+msgid "<span>Reports</span>"
+msgstr "Txostenak"
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_config_kanban
+msgid "<span>View</span>"
+msgstr "Ikusi"
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.report_statement
+#: model_terms:ir.ui.view,arch_db:pos.report_usersproduct
+msgid "<strong>Company</strong>:<br/>"
+msgstr "Enpresa"
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.report_statement
+msgid "<strong>Ending Balance</strong>:<br/>"
+msgstr "Amaitze balantzea"
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.report_statement
+msgid "<strong>Journal</strong>:<br/>"
+msgstr "Egunerokoa"
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.report_statement
+msgid "<strong>Opening Date</strong>:<br/>"
+msgstr "Irekiera data"
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.report_usersproduct
+msgid "<strong>Print Date</strong>:<br/>"
+msgstr "Inprimatu data"
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.report_statement
+msgid "<strong>Starting Balance</strong>:<br/>"
+msgstr "Hasierako balantzea"
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.report_usersproduct
+msgid "<strong>Starting Date</strong>:<br/>"
+msgstr "Hasierako data"
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.report_statement
+msgid "<strong>Statement Name</strong>:<br/>"
+msgstr "Aitorpen izena"
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.report_statement
+#: model_terms:ir.ui.view,arch_db:pos.report_usersproduct
+msgid "<strong>Total</strong>"
+msgstr "Guztira"
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.report_statement
+#: model_terms:ir.ui.view,arch_db:pos.report_usersproduct
+msgid "<strong>User</strong>:<br/>"
+msgstr "Erabiltzailea"
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_session_form
+msgid "= Theoretical Closing Balance"
+msgstr "Teorikoki azken saldoa"
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/screens.js:1885
+#, python-format
+msgid "? Clicking \"Confirm\" will validate the payment."
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/screens.js:1171
+#, python-format
+msgid "A Customer Name Is Required"
+msgstr "Bezeroaren izena jartzea beharrezkoa da"
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_res_users_pos_security_pin
+msgid ""
+"A Security PIN used to protect sensible functionality in the Point of Sale"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_config_form
+msgid "A custom receipt footer message"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_config_form
+msgid "A custom receipt header message"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_config_uuid
+msgid ""
+"A globally unique identifier for this pos configuration, used to prevent "
+"conflicts in client-generated data"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_session_login_number
+msgid ""
+"A sequence number that is incremented each time a user resumes the pos "
+"session"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_session_sequence_number
+msgid "A sequence number that is incremented with each order"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.actions.act_window,help:pos.action_pos_session
+msgid ""
+"A session is a period of time, usually one day, during which\n"
+"                you sell through the point of sale. The user has to check "
+"the\n"
+"                currencies in your cash registers at the beginning and the "
+"end\n"
+"                of each session."
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_order_sequence_number
+msgid "A session-unique sequence number for the order"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_config_receipt_footer
+msgid "A short text that will be inserted as a footer in the printed receipt"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_config_receipt_header
+msgid "A short text that will be inserted as a header in the printed receipt"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1449
+#, python-format
+msgid "ABC"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_pos_form
+msgid "Accounting Information"
+msgstr "Kontabilitate informazioa"
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_config_journal_id
+#: model:ir.model.fields,help:pos.field_pos_order_sale_journal
+msgid "Accounting journal used to post sales entries."
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.partner_product_5
+#: model:product.template,name:pos.partner_product_5_product_template
+msgid "Acsone.eu"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_config_search
+#: selection:pos.config,state:0
+msgid "Active"
+msgstr "Gaituta"
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_account_journal_journal_user
+msgid "Active in Point of Sale"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/screens.js:1729
+#, python-format
+msgid "Add Tip"
+msgstr ""
+
+#. module: pos
+#: model:ir.model,name:pos.model_pos_discount
+msgid "Add a Global Discount"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:374
+#: code:addons/pos/static/src/xml/pos.xml:452
+#, python-format
+msgid "Address"
+msgstr "Helbidea"
+
+#. module: pos
+#: model:ir.actions.act_window,name:pos.action_pos_all_sales_lines
+msgid "All sales lines"
+msgstr "Lerro salmenta guztiak"
+
+#. module: pos
+#: selection:pos.config.settings,module_pos_reprint:0
+msgid "Allow cashier to reprint receipts"
+msgstr "Onartu kutxazaina ordainagiriak inprima ditzan"
+
+#. module: pos
+#: selection:pos.config.settings,module_pos_discount:0
+msgid "Allow discounts on order lines only"
+msgstr "Deskontutarako orden lerroak onartu"
+
+#. module: pos
+#: selection:pos.config.settings,module_pos_discount:0
+msgid "Allow global discounts"
+msgstr "Deskontu orokorrak onartu"
+
+#. module: pos
+#: selection:pos.config.settings,module_pos_mercury:0
+msgid "Allows customers to pay with credit cards."
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_config_settings_module_pos_discount
+msgid ""
+"Allows the cashier to quickly give a percentage sale discount for all the "
+"sales order to a customer"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_config_settings_module_pos_loyalty
+msgid ""
+"Allows you to define a loyalty program in the point of sale, where the "
+"customers earn loyalty points and get rewards"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_make_payment_amount
+#: model_terms:ir.ui.view,arch_db:pos.report_statement
+#: model_terms:ir.ui.view,arch_db:pos.report_usersproduct
+msgid "Amount"
+msgstr "Kopurua"
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_account_journal_amount_authorized_diff
+msgid "Amount Authorized Difference"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_order_tree
+msgid "Amount total"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_config_name
+msgid "An internal identification of the point of sale"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_sale_config_settings_form_pos
+msgid "Apply"
+msgstr "Aplikatu"
+
+#. module: pos
+#: model:ir.actions.act_window,name:pos.action_pos_discount
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_discount
+msgid "Apply Discount"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/screens.js:1877
+#, python-format
+msgid "Are you sure that the customer wants to  pay"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_iface_print_auto
+msgid "Automatic Receipt Printing"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_config_iface_cashdrawer
+msgid "Automatically open the cashdrawer"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_journal_ids
+#: model:ir.model.fields,field_description:pos.field_pos_session_journal_ids
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_config_form
+msgid "Available Payment Methods"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_product_template_available_in_pos
+msgid "Available in the Point of Sale"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_report_pos_order_average_price
+msgid "Average Price"
+msgstr "Batazbesteko Prezioa"
+
+#. module: pos
+#: model:product.product,name:pos.bacardi
+#: model:product.template,name:pos.bacardi_product_template
+msgid "Bacardi"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:267
+#: code:addons/pos/static/src/xml/pos.xml:587
+#, python-format
+msgid "Back"
+msgstr "Atzera"
+
+#. module: pos
+#: model:product.product,name:pos.baileys
+#: model:product.template,name:pos.baileys_product_template
+msgid "Baileys"
+msgstr ""
+
+#. module: pos
+#: model:ir.model,name:pos.model_account_bank_statement
+#: model:ir.model.fields,field_description:pos.field_pos_session_statement_ids
+msgid "Bank Statement"
+msgstr ""
+
+#. module: pos
+#: model:ir.model,name:pos.model_account_bank_statement_line
+msgid "Bank Statement Line"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:351
+#: code:addons/pos/static/src/xml/pos.xml:393
+#, python-format
+msgid "Barcode"
+msgstr "Barra-kodea"
+
+#. module: pos
+#: model:ir.ui.menu,name:pos.menu_pos_barcode_nomenclature_all
+msgid "Barcode Nomenclatures"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1157
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_config_form
+#, python-format
+msgid "Barcode Scanner"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_barcode_nomenclature_id
+msgid "Barcodes"
+msgstr ""
+
+#. module: pos
+#: model:pos.category,name:pos.beer
+msgid "Beers"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_sale_config_settings_form_pos
+#: model:pos.category,name:pos.beverage
+msgid "Beverages"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.raisins_noir
+#: model:product.template,name:pos.raisins_noir_product_template
+msgid "Black Grapes"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.bloody_mary
+#: model:product.template,name:pos.bloody_mary_product_template
+msgid "Bloody Mary"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.boni_orange
+#: model:product.template,name:pos.boni_orange_product_template
+msgid "Boni Oranges"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.budweiser
+#: model:product.template,name:pos.budweiser_product_template
+msgid "Budweiser"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/screens.js:868
+#, python-format
+msgid "Button"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_config_iface_print_via_proxy
+msgid "Bypass browser printing and prints via the hardware proxy"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:781
+#, python-format
+msgid "CHANGE"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.caipirinha
+#: model:product.template,name:pos.caipirinha_product_template
+msgid "Caipirinha"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:420
+#: code:addons/pos/static/src/xml/pos.xml:909
+#: code:addons/pos/static/src/xml/pos.xml:926
+#: code:addons/pos/static/src/xml/pos.xml:943
+#: code:addons/pos/static/src/xml/pos.xml:963
+#: code:addons/pos/static/src/xml/pos.xml:1015
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_discount
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_open_statement
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_payment
+#: model_terms:ir.ui.view,arch_db:pos.view_sale_config_settings_form_pos
+#, python-format
+msgid "Cancel"
+msgstr "Ezeztatu"
+
+#. module: pos
+#: selection:pos.order,state:0 selection:report.pos.order,state:0
+msgid "Cancelled"
+msgstr "Ezeztatua"
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/screens.js:1866
+#, python-format
+msgid "Cannot return change without a cash payment method"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.captain_morgan
+#: model:product.template,name:pos.captain_morgan_product_template
+msgid "Captain Morgan"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.capuccino
+#: model:product.template,name:pos.capuccino_product_template
+msgid "Capuccino"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.carlsberg
+#: model:product.template,name:pos.carlsberg_product_template
+msgid "Carlsberg"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.carotte
+#: model:product.template,name:pos.carotte_product_template
+msgid "Carrots"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_cash_control
+msgid "Cash Control"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_session_cash_journal_id
+msgid "Cash Journal"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_session_cash_register_id
+msgid "Cash Register"
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/models/pos_session.py:106
+#, python-format
+msgid "Cash control can only be applied to cash journals."
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_iface_cashdrawer
+msgid "Cashdrawer"
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/models/barcode_rule.py:19
+#, python-format
+msgid "Cashier"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.actions.act_window,help:pos.product_pos_category_action
+msgid ""
+"Categories are used to browse your products through the\n"
+"                touchscreen interface."
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:493
+#, python-format
+msgid "Change"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/chrome.js:102
+#, python-format
+msgid "Change Cashier"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/screens.js:1116
+#, python-format
+msgid "Change Customer"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/screens.js:1729
+#, python-format
+msgid "Change Tip"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:649
+#: code:addons/pos/static/src/xml/pos.xml:1339
+#, python-format
+msgid "Change:"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_product_template_to_weight
+msgid ""
+"Check if the product should be weighted using the hardware scale integration"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_product_template_available_in_pos
+msgid "Check if you want this product to appear in the Point of Sale"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_config_cash_control
+msgid "Check the amount of the cashbox at opening and closing."
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_account_journal_journal_user
+msgid ""
+"Check this box if this journal define a payment method that can be used in a "
+"point of sale."
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_config_group_by
+msgid ""
+"Check this if you want to group the Journal Items by Product while closing a "
+"Session"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/screens.js:1917
+#, python-format
+msgid "Check your internet connection and try again."
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_category_child_id
+msgid "Children Categories"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:322
+#: code:addons/pos/static/src/xml/pos.xml:323
+#, python-format
+msgid "City"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.actions.act_window,help:pos.product_template_action
+msgid "Click to add a new product."
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.actions.act_window,help:pos.action_account_journal_form
+msgid "Click to add a payment method."
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.actions.act_window,help:pos.action_pos_config_kanban
+msgid "Click to create a new PoS config."
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.actions.act_window,help:pos.action_pos_pos_form
+msgid "Click to create a new order."
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.actions.act_window,help:pos.product_pos_category_action
+msgid "Click to define a new category."
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.actions.act_window,help:pos.action_pos_session
+msgid "Click to start a new session."
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/models/barcode_rule.py:18
+#, python-format
+msgid "Client"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/chrome.js:679
+#: code:addons/pos/static/src/js/chrome.js:687
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_config_kanban
+#, python-format
+msgid "Close"
+msgstr "Irten"
+
+#. module: pos
+#: selection:pos.session,state:0
+msgid "Closed & Posted"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/gui.js:335
+#, python-format
+msgid "Closing ..."
+msgstr ""
+
+#. module: pos
+#: selection:pos.session,state:0
+msgid "Closing Control"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_session_stop_at
+msgid "Closing Date"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.coke
+#: model:product.template,name:pos.coke_product_template
+msgid "Coca-Cola"
+msgstr ""
+
+#. module: pos
+#: model:pos.category,name:pos.cocktail
+msgid "Cocktails"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.coffee
+#: model:product.template,name:pos.coffee_product_template
+msgid "Coffee"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_company_id
+#: model:ir.model.fields,field_description:pos.field_pos_order_company_id
+#: model:ir.model.fields,field_description:pos.field_pos_order_line_company_id
+#: model:ir.model.fields,field_description:pos.field_report_pos_order_company_id
+msgid "Company"
+msgstr "Enpresa"
+
+#. module: pos
+#: model:product.product,name:pos.poire_conference
+#: model:product.template,name:pos.poire_conference_product_template
+msgid "Conference pears"
+msgstr ""
+
+#. module: pos
+#: model:ir.ui.menu,name:pos.menu_point_config_product
+msgid "Configuration"
+msgstr "Konfigurazioa"
+
+#. module: pos
+#: model:ir.actions.act_window,name:pos.action_pos_configuration
+msgid "Configure Point of Sale"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.actions.act_window,help:pos.action_pos_config_kanban
+msgid ""
+"Configure at least one Point of Sale to be able to sell through the PoS "
+"interface."
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/chrome.js:684
+#: code:addons/pos/static/src/xml/pos.xml:906
+#, python-format
+msgid "Confirm"
+msgstr "Baieztatu"
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/models.js:115
+#, python-format
+msgid "Connecting to the PosBox"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_session_form
+msgid "Continue Selling"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.corona
+#: model:product.template,name:pos.corona_product_template
+msgid "Corona"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.cosmopolitan
+#: model:product.template,name:pos.cosmopolitan_product_template
+msgid "Cosmopolitan"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/screens.js:1259
+#, python-format
+msgid "Could Not Read Image"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:330
+#, python-format
+msgid "Country"
+msgstr "Herrialdea"
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_category_create_uid
+#: model:ir.model.fields,field_description:pos.field_pos_config_create_uid
+#: model:ir.model.fields,field_description:pos.field_pos_config_settings_create_uid
+#: model:ir.model.fields,field_description:pos.field_pos_discount_create_uid
+#: model:ir.model.fields,field_description:pos.field_pos_make_payment_create_uid
+#: model:ir.model.fields,field_description:pos.field_pos_open_statement_create_uid
+#: model:ir.model.fields,field_description:pos.field_pos_order_create_uid
+#: model:ir.model.fields,field_description:pos.field_pos_order_line_create_uid
+#: model:ir.model.fields,field_description:pos.field_pos_session_create_uid
+msgid "Created by"
+msgstr "Nork sortua"
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_category_create_date
+#: model:ir.model.fields,field_description:pos.field_pos_config_create_date
+#: model:ir.model.fields,field_description:pos.field_pos_config_settings_create_date
+#: model:ir.model.fields,field_description:pos.field_pos_discount_create_date
+#: model:ir.model.fields,field_description:pos.field_pos_make_payment_create_date
+#: model:ir.model.fields,field_description:pos.field_pos_open_statement_create_date
+#: model:ir.model.fields,field_description:pos.field_pos_order_create_date
+#: model:ir.model.fields,field_description:pos.field_pos_session_create_date
+msgid "Created on"
+msgstr "Created on"
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_order_line_create_date
+msgid "Creation Date"
+msgstr "Sortze data"
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_settings_module_pos_mercury
+msgid "Credit Cards"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.cuba_libre
+#: model:product.template,name:pos.cuba_libre_product_template
+msgid "Cuba Libre"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_currency_id
+#: model:ir.model.fields,field_description:pos.field_pos_session_currency_id
+msgid "Currency"
+msgstr "Moneta"
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_current_session_id
+msgid "Current Session"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_current_session_state
+#, fuzzy
+msgid "Current session state"
+msgstr "Sortze data"
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/screens.js:1740
+#: code:addons/pos/static/src/xml/pos.xml:116
+#: code:addons/pos/static/src/xml/pos.xml:617
+#: model:ir.model.fields,field_description:pos.field_pos_order_partner_id
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_order_filter
+#, python-format
+msgid "Customer"
+msgstr "Kidea"
+
+#. module: pos
+#: code:addons/pos/models/pos_order.py:459
+#, python-format
+msgid "Customer Invoice"
+msgstr "Bezeroaren Beza"
+
+#. module: pos
+#: model:product.product,name:pos.daiquiri
+#: model:product.template,name:pos.daiquiri_product_template
+msgid "Daiquiri"
+msgstr ""
+
+#. module: pos
+#: model:ir.ui.menu,name:pos.menu_pos_dashboard
+msgid "Dashboard"
+msgstr "Arbela"
+
+#. module: pos
+#: model:product.product,name:pos.partner_product_7
+#: model:product.template,name:pos.partner_product_7_product_template
+msgid "Datalp.com"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_report_pos_order_date
+msgid "Date Order"
+msgstr "Date Order"
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1147
+#, python-format
+msgid "Debug Window"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_account_bank_statement_account_id
+msgid "Default Debit Account"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_default_fiscal_position_id
+msgid "Default Fiscal Position"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_config_barcode_nomenclature_id
+msgid ""
+"Defines what kind of barcodes are available and how they are assigned to "
+"products, customers and cashiers"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_report_pos_order_delay_validation
+msgid "Delay Validation"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1167
+#, python-format
+msgid "Delete Paid Orders"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/chrome.js:261
+#, python-format
+msgid "Delete Paid Orders ?"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1168
+#, python-format
+msgid "Delete Unpaid Orders"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/chrome.js:271
+#, python-format
+msgid "Delete Unpaid Orders ?"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_res_users_property_delivery_carrier_id
+msgid "Delivery Method"
+msgstr ""
+
+#. module: pos
+#: selection:pos.config,state:0
+msgid "Deprecated"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/screens.js:1119
+#, python-format
+msgid "Deselect Customer"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/chrome.js:53
+#, python-format
+msgid "Destroy Current Order ?"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_session_cash_register_difference
+msgid "Difference"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_session_cash_register_difference
+msgid ""
+"Difference between the theoretical closing balance and the real closing "
+"balance."
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.disaronno
+#: model:product.template,name:pos.disaronno_product_template
+msgid "Disaronno"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:139
+#, python-format
+msgid "Disc"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_settings_module_pos_discount
+msgid "Discount"
+msgstr "Deskontua"
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_discount_discount
+#: model:ir.model.fields,field_description:pos.field_pos_order_line_discount
+msgid "Discount (%)"
+msgstr "Deskontua (%)"
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_order_line_notice
+msgid "Discount Notice"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:724
+#: code:addons/pos/static/src/xml/pos.xml:1312
+#, python-format
+msgid "Discount:"
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/models/barcode_rule.py:17
+#, python-format
+msgid "Discounted Product"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:790
+#, python-format
+msgid "Discounts"
+msgstr "Deskontuak"
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_iface_display_categ_images
+msgid "Display Category Pictures"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_category_display_name
+#: model:ir.model.fields,field_description:pos.field_pos_config_display_name
+#: model:ir.model.fields,field_description:pos.field_pos_config_settings_display_name
+#: model:ir.model.fields,field_description:pos.field_pos_discount_display_name
+#: model:ir.model.fields,field_description:pos.field_pos_make_payment_display_name
+#: model:ir.model.fields,field_description:pos.field_pos_open_statement_display_name
+#: model:ir.model.fields,field_description:pos.field_pos_order_display_name
+#: model:ir.model.fields,field_description:pos.field_pos_order_line_display_name
+#: model:ir.model.fields,field_description:pos.field_pos_session_display_name
+#: model:ir.model.fields,field_description:pos.field_report_pos_report_invoice_display_name
+#: model:ir.model.fields,field_description:pos.field_report_pos_report_statement_display_name
+#: model:ir.model.fields,field_description:pos.field_report_pos_report_usersproduct_display_name
+#: model:ir.model.fields,field_description:pos.field_report_pos_order_display_name
+msgid "Display Name"
+msgstr "Izena erakutsi"
+
+#. module: pos
+#: model_terms:ir.actions.act_window,help:pos.product_template_action
+msgid ""
+"Do not forget to set the price and the point of sale category\n"
+"                in which it should appear. If a product has no point of "
+"sale\n"
+"                category, you can not sell it through the point of sale\n"
+"                interface."
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_open_statement
+msgid "Do you want to open cash registers?"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_order_filter
+msgid "Done"
+msgstr "Done"
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:491
+#, python-format
+msgid "Due"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.partner_product_9
+#: model:product.template,name:pos.partner_product_9_product_template
+msgid "EGGS-solutions.fr"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.partner_product_3
+#: model:product.template,name:pos.partner_product_3_product_template
+msgid "Eezee-It"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.efes
+#: model:product.template,name:pos.efes_product_template
+msgid "Efes"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.partner_product_4
+#: model:product.template,name:pos.partner_product_4_product_template
+msgid "Ekomurz.nl"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1150
+#: model:ir.model.fields,field_description:pos.field_pos_config_iface_electronic_scale
+#, python-format
+msgid "Electronic Scale"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:343
+#: code:addons/pos/static/src/xml/pos.xml:378
+#, python-format
+msgid "Email"
+msgstr "Emaila"
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/screens.js:1837
+#, python-format
+msgid "Empty Order"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_config_iface_scan_via_proxy
+msgid "Enable barcode scanning with a remotely connected barcode scanner"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_config_iface_electronic_scale
+msgid "Enables Electronic Scale integration"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_config_iface_payment_terminal
+msgid "Enables Payment Terminal integration"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_config_iface_vkeyboard
+msgid "Enables an integrated Virtual Keyboard"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_config_iface_invoicing
+msgid "Enables invoice generation from the Point of Sale"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_session_form
+msgid "End of Session"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_session_cash_register_balance_end_real
+msgid "Ending Balance"
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/models/pos_category.py:13
+#, python-format
+msgid "Error ! You cannot create recursive categories."
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/screens.js:1188
+#, python-format
+msgid "Error: Could not Save Changes"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/models.js:239
+#, python-format
+msgid ""
+"Error: The Point of Sale User must belong to the same company as the Point "
+"of Sale. You are probably trying to load the point of sale as an "
+"administrator in a multi-company setup, with the administrator account set "
+"to the wrong company."
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.espresso
+#: model:product.template,name:pos.espresso_product_template
+msgid "Espresso"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1169
+#, python-format
+msgid "Export Paid Orders"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1170
+#, python-format
+msgid "Export Unpaid Orders"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.chicon_flandria_extra
+#: model:product.template,name:pos.chicon_flandria_extra_product_template
+msgid "Extra Flandria chicory"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_pos_form
+msgid "Extra Info"
+msgstr "Informazio gehigarria"
+
+#. module: pos
+#: model:product.product,name:pos.fanta
+#: model:product.template,name:pos.fanta_product_template
+msgid "Fanta"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_config_form
+msgid "Features"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1029
+#, python-format
+msgid "Finished Importing Orders"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_order_fiscal_position_id
+msgid "Fiscal Position"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_fiscal_position_ids
+msgid "Fiscal Positions"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_config_form
+msgid "Footer"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_config_iface_big_scrollbars
+msgid "For imprecise industrial touchscreens"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.fosters
+#: model:product.template,name:pos.fosters_product_template
+msgid "Foster's"
+msgstr ""
+
+#. module: pos
+#: model:pos.category,name:pos.fruits_vegetables
+msgid "Fruits and Vegetables"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_pos_form
+msgid "General Information"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_category_sequence
+msgid "Gives the sequence order when displaying a list of product categories."
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.pomme_golden_perlim
+#: model:product.template,name:pos.pomme_golden_perlim_product_template
+msgid "Golden Apples Perlim"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.gordon
+#: model:product.template,name:pos.gordon_product_template
+msgid "Gordon"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.pomme_granny_smith
+#: model:product.template,name:pos.pomme_granny_smith_product_template
+msgid "Granny Smith apples"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.poivron_verts
+#: model:product.template,name:pos.poivron_verts_product_template
+msgid "Green Peppers"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.green_tea
+#: model:product.template,name:pos.green_tea_product_template
+msgid "Green Tea"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_order_filter
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_session_search
+#: model_terms:ir.ui.view,arch_db:pos.view_report_pos_order_search
+msgid "Group By"
+msgstr "Group By"
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_group_by
+msgid "Group Journal Items"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.guinness
+#: model:product.template,name:pos.guinness_product_template
+msgid "Guinness"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1181
+#, python-format
+msgid "Hardware Events"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_config_form
+msgid "Hardware Proxy / PosBox"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1177
+#, python-format
+msgid "Hardware Status"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_session_cash_control
+msgid "Has Cash Control"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_config_form
+msgid "Header"
+msgstr ""
+
+#. module: pos
+#: model:pos.category,name:pos.hot
+msgid "Hot Drinks"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_category_id
+#: model:ir.model.fields,field_description:pos.field_pos_config_id
+#: model:ir.model.fields,field_description:pos.field_pos_config_settings_id
+#: model:ir.model.fields,field_description:pos.field_pos_discount_id
+#: model:ir.model.fields,field_description:pos.field_pos_make_payment_id
+#: model:ir.model.fields,field_description:pos.field_pos_open_statement_id
+#: model:ir.model.fields,field_description:pos.field_pos_order_id
+#: model:ir.model.fields,field_description:pos.field_pos_order_line_id
+#: model:ir.model.fields,field_description:pos.field_pos_session_id
+#: model:ir.model.fields,field_description:pos.field_report_pos_report_invoice_id
+#: model:ir.model.fields,field_description:pos.field_report_pos_report_statement_id
+#: model:ir.model.fields,field_description:pos.field_report_pos_report_usersproduct_id
+#: model:ir.model.fields,field_description:pos.field_report_pos_order_id
+msgid "ID"
+msgstr "ID"
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/popups.js:113
+#, python-format
+msgid "IMPORTANT: Bug Report From Odoo Point Of Sale"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_proxy_ip
+msgid "IP Address"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.ice_tea
+#: model:product.template,name:pos.ice_tea_product_template
+msgid "Ice Tea"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.actions.act_window,help:pos.product_pos_category_action
+msgid ""
+"If you put a photo on the category, the layout of the\n"
+"                touchscreen interface will automatically. We suggest not to "
+"put\n"
+"                a photo on categories for small (1024x768) screens."
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_category_image
+msgid "Image"
+msgstr "Irudia"
+
+#. module: pos
+#: model:pos.category,name:pos.alcohol
+msgid "Import Drinks"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1171
+#, python-format
+msgid "Import Orders"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_settings_module_pos_data_drinks
+msgid "Import common drinks data"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_sale_config_settings_form_pos
+#, fuzzy
+msgid "Importable Point of Sales Data"
+msgstr "Saltokiaren izena"
+
+#. module: pos
+#: model:product.product,name:pos.tomate_en_grappe
+#: model:product.template,name:pos.tomate_en_grappe_product_template
+msgid "In Cluster Tomatoes"
+msgstr ""
+
+#. module: pos
+#: selection:pos.session,state:0
+msgid "In Progress"
+msgstr "Lanean"
+
+#. module: pos
+#: code:addons/pos/models/pos_order.py:406
+#, python-format
+msgid "In order to delete a sale, it must be new or cancelled."
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_config_search
+#: selection:pos.config,state:0
+msgid "Inactive"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_iface_tax_included
+msgid "Include Taxes in Prices"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/gui.js:266
+#, python-format
+msgid "Incorrect Password"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_order_note
+msgid "Internal Notes"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:625
+#: model:ir.actions.report.xml,name:pos.pos_invoice_report
+#: model:ir.model.fields,field_description:pos.field_pos_order_invoice_id
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_pos_form
+#, python-format
+msgid "Invoice"
+msgstr "Invoice"
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_report_pos_order_invoiced
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_order_filter
+#: model_terms:ir.ui.view,arch_db:pos.view_report_pos_order_search
+#: selection:pos.order,state:0 selection:report.pos.order,state:0
+msgid "Invoiced"
+msgstr "Fakturatuta"
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_iface_invoicing
+msgid "Invoicing"
+msgstr "Fakturazioa"
+
+#. module: pos
+#: model:product.product,name:pos.irish_coffee
+#: model:product.template,name:pos.irish_coffee_product_template
+msgid "Irish Coffee"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_account_bank_statement_account_id
+msgid "It acts as a default account for debit amount"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.jack_daniels
+#: model:product.template,name:pos.jack_daniels_product_template
+msgid "Jack Daniel's"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.jim_beam
+#: model:product.template,name:pos.jim_beam_product_template
+msgid "Jim Beam"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.pomme_jonagold
+#: model:product.template,name:pos.pomme_jonagold_product_template
+msgid "Jonagold apples"
+msgstr ""
+
+#. module: pos
+#: model:ir.model,name:pos.model_account_journal
+#: model:ir.model.fields,field_description:pos.field_report_pos_order_journal_id
+msgid "Journal"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_order_account_move
+msgid "Journal Entry"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_config_form
+msgid "Journals"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_iface_big_scrollbars
+msgid "Large Scrollbars"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_category___last_update
+#: model:ir.model.fields,field_description:pos.field_pos_config___last_update
+#: model:ir.model.fields,field_description:pos.field_pos_config_settings___last_update
+#: model:ir.model.fields,field_description:pos.field_pos_discount___last_update
+#: model:ir.model.fields,field_description:pos.field_pos_make_payment___last_update
+#: model:ir.model.fields,field_description:pos.field_pos_open_statement___last_update
+#: model:ir.model.fields,field_description:pos.field_pos_order___last_update
+#: model:ir.model.fields,field_description:pos.field_pos_order_line___last_update
+#: model:ir.model.fields,field_description:pos.field_pos_session___last_update
+#: model:ir.model.fields,field_description:pos.field_report_pos_report_invoice___last_update
+#: model:ir.model.fields,field_description:pos.field_report_pos_report_statement___last_update
+#: model:ir.model.fields,field_description:pos.field_report_pos_report_usersproduct___last_update
+#: model:ir.model.fields,field_description:pos.field_report_pos_order___last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_category_write_uid
+#: model:ir.model.fields,field_description:pos.field_pos_config_settings_write_uid
+#: model:ir.model.fields,field_description:pos.field_pos_config_write_uid
+#: model:ir.model.fields,field_description:pos.field_pos_discount_write_uid
+#: model:ir.model.fields,field_description:pos.field_pos_make_payment_write_uid
+#: model:ir.model.fields,field_description:pos.field_pos_open_statement_write_uid
+#: model:ir.model.fields,field_description:pos.field_pos_order_line_write_uid
+#: model:ir.model.fields,field_description:pos.field_pos_order_write_uid
+#: model:ir.model.fields,field_description:pos.field_pos_session_write_uid
+msgid "Last Updated by"
+msgstr "Last Updated by"
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_category_write_date
+#: model:ir.model.fields,field_description:pos.field_pos_config_settings_write_date
+#: model:ir.model.fields,field_description:pos.field_pos_config_write_date
+#: model:ir.model.fields,field_description:pos.field_pos_discount_write_date
+#: model:ir.model.fields,field_description:pos.field_pos_make_payment_write_date
+#: model:ir.model.fields,field_description:pos.field_pos_open_statement_write_date
+#: model:ir.model.fields,field_description:pos.field_pos_order_line_write_date
+#: model:ir.model.fields,field_description:pos.field_pos_order_write_date
+#: model:ir.model.fields,field_description:pos.field_pos_session_write_date
+msgid "Last Updated on"
+msgstr "Last Updated on"
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_last_session_closing_cash
+msgid "Last session closing cash"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_last_session_closing_date
+msgid "Last session closing date"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.poireaux_poireaux
+#: model:product.template,name:pos.poireaux_poireaux_product_template
+msgid "Leeks"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.citron
+#: model:product.template,name:pos.citron_product_template
+msgid "Lemon"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_order_line_name
+msgid "Line No"
+msgstr ""
+
+#. module: pos
+#: model:ir.model,name:pos.model_pos_order_line
+msgid "Lines of Point of Sale"
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/wizard/pos_open_statement.py:33
+#, python-format
+msgid "List of Cash Registers"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/models.js:484
+#: code:addons/pos/static/src/xml/pos.xml:38
+#, python-format
+msgid "Loading"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_order_location_id
+#: model:ir.model.fields,field_description:pos.field_report_pos_order_location_id
+msgid "Location"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_session_login_number
+msgid "Login Sequence Number"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/gui.js:293
+#, python-format
+msgid "Login as a Manager"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_settings_module_pos_loyalty
+msgid "Loyalty Program"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_payment
+msgid "Make Payment"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.malibu
+#: model:product.template,name:pos.malibu_product_template
+msgid "Malibu"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_sale_config_settings_form_pos
+msgid "Manage loyalty program with points and rewards for customers"
+msgstr ""
+
+#. module: pos
+#: model:res.groups,name:pos.group_pos_manager
+msgid "Manager"
+msgstr "Gerentea"
+
+#. module: pos
+#: model:product.product,name:pos.manhattan
+#: model:product.template,name:pos.manhattan_product_template
+msgid "Manhattan"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.margarita
+#: model:product.template,name:pos.margarita_product_template
+msgid "Margarita"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.martini
+#: model:product.product,name:pos.martini_cocktail
+#: model:product.template,name:pos.martini_cocktail_product_template
+#: model:product.template,name:pos.martini_product_template
+msgid "Martini"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_category_image_medium
+msgid "Medium-sized image"
+msgstr "Irudi ertaina"
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_category_image_medium
+msgid ""
+"Medium-sized image of the category. It is automatically resized as a "
+"128x128px image, with aspect ratio preserved. Use this field in form views "
+"or some kanban views."
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:494
+#, python-format
+msgid "Method"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.milkshake_banana
+#: model:product.template,name:pos.milkshake_banana_product_template
+msgid "Milkshake Banana"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.milkshake_cherry
+#: model:product.template,name:pos.milkshake_cherry_product_template
+msgid "Milkshake Cherry"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.milkshake_chocolate
+#: model:product.template,name:pos.milkshake_chocolate_product_template
+msgid "Milkshake Chocolate"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.milkshake_strawberry
+#: model:product.template,name:pos.milkshake_strawberry_product_template
+msgid "Milkshake Strawberry"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.milkshake_vanilla
+#: model:product.template,name:pos.milkshake_vanilla_product_template
+msgid "Milkshake Vanilla"
+msgstr ""
+
+#. module: pos
+#: model:pos.category,name:pos.milkshake
+msgid "Milkshakes"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.miller
+#: model:product.template,name:pos.miller_product_template
+msgid "Miller"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.minute_maid
+#: model:product.template,name:pos.minute_maid_product_template
+msgid "Minute Maid"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.product_product_consumable
+#: model:product.template,name:pos.product_product_consumable_product_template
+msgid "Miscellaneous"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.mojito
+#: model:product.template,name:pos.mojito_product_template
+msgid "Mojito"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_report_pos_order_search
+msgid "Month of order date"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_config_kanban
+msgid "More <i class=\"fa fa-caret-down\"/>"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_report_pos_order_search
+msgid "My Sales"
+msgstr "Nire erosketak"
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:387
+#: code:addons/pos/static/src/xml/pos.xml:398
+#: code:addons/pos/static/src/xml/pos.xml:407
+#, python-format
+msgid "N/A"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:310
+#: code:addons/pos/static/src/xml/pos.xml:451
+#: model:ir.model.fields,field_description:pos.field_pos_category_name
+#: model_terms:ir.ui.view,arch_db:pos.report_statement
+#, python-format
+msgid "Name"
+msgstr "Izena"
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/screens.js:1847
+#, python-format
+msgid "Negative Bank Payment"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.nescafe
+#: model:product.template,name:pos.nescafe_product_template
+msgid "Nescafe"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_order_filter
+#: selection:pos.order,state:0 selection:report.pos.order,state:0
+msgid "New"
+msgstr "Berria"
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_config_kanban
+msgid "New Session"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:650
+#, python-format
+msgid "Next Order"
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/models/pos_order.py:134
+#, python-format
+msgid ""
+"No cash statement found for this session. Unable to record returned cash."
+msgstr ""
+
+#. module: pos
+#: selection:pos.config.settings,module_pos_mercury:0
+msgid "No credit card"
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/report/pos_invoice.py:25
+#, python-format
+msgid "No link to an invoice for %s."
+msgstr ""
+
+#. module: pos
+#: selection:pos.config.settings,module_pos_reprint:0
+msgid "No reprint"
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/wizard/pos_open_statement.py:24
+#, python-format
+msgid "No sequence defined on the journal"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/screens.js:1962
+#: code:addons/pos/static/src/xml/pos.xml:332
+#, python-format
+msgid "None"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_report_pos_order_search
+msgid "Not Invoiced"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.actions.act_window,help:pos.action_pos_session
+msgid ""
+"Note that you may use the menu <i>Your Session</i>\n"
+"                to quickly open a new session."
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_pos_form
+msgid "Notes"
+msgstr "Oharrak"
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_order_nb_print
+msgid "Number of Print"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.index
+msgid "Odoo POS"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/chrome.js:388
+#, python-format
+msgid "Offline"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/gui.js:317
+#, python-format
+msgid "Offline Orders"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:838
+#: code:addons/pos/static/src/xml/pos.xml:852
+#: code:addons/pos/static/src/xml/pos.xml:866
+#: code:addons/pos/static/src/xml/pos.xml:892
+#: code:addons/pos/static/src/xml/pos.xml:923
+#: code:addons/pos/static/src/xml/pos.xml:940
+#: code:addons/pos/static/src/xml/pos.xml:1018
+#: code:addons/pos/static/src/xml/pos.xml:1054
+#, python-format
+msgid "Ok"
+msgstr "Ados"
+
+#. module: pos
+#: model:product.product,name:pos.Onions
+#: model:product.template,name:pos.Onions_product_template
+msgid "Onions"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/screens.js:1245
+#, python-format
+msgid "Only web-compatible Image formats such as .png or .jpeg are supported"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_session_search
+msgid "Open"
+msgstr ""
+
+#. module: pos
+#: model:ir.actions.act_window,name:pos.action_pos_open_statement
+msgid "Open Cash Register"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:636
+#: code:addons/pos/static/src/xml/pos.xml:1183
+#, python-format
+msgid "Open Cashbox"
+msgstr ""
+
+#. module: pos
+#: model:ir.actions.client,name:pos.action_client_pos_menu
+msgid "Open POS Menu"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_open_statement
+msgid "Open Registers"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_config_kanban
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_session_form
+msgid "Open Session"
+msgstr ""
+
+#. module: pos
+#: model:ir.actions.act_window,name:pos.act_pos_open_statement
+#: model:ir.model,name:pos.model_pos_open_statement
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_open_statement
+msgid "Open Statements"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_session_form
+msgid "Opening Balance"
+msgstr ""
+
+#. module: pos
+#: selection:pos.session,state:0
+msgid "Opening Control"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_session_start_at
+msgid "Opening Date"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.papillon_orange
+#: model:product.template,name:pos.papillon_orange_product_template
+msgid "Orange Butterfly"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:282
+#, python-format
+msgid "Order"
+msgstr "Eskaria"
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/models.js:1515
+#: code:addons/pos/static/src/js/models.js:1546
+#, python-format
+msgid "Order "
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_order_date_order
+msgid "Order Date"
+msgstr "Eskari data"
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_sequence_id
+msgid "Order IDs Sequence"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_order_lines
+msgid "Order Lines"
+msgstr "Eskari lerroak"
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_order_filter
+#: model_terms:ir.ui.view,arch_db:pos.view_report_pos_order_search
+msgid "Order Month"
+msgstr "Order Month"
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_order_line_order_id
+#: model:ir.model.fields,field_description:pos.field_pos_order_name
+msgid "Order Ref"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_session_sequence_number
+msgid "Order Sequence Number"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_pos_form
+msgid "Order lines"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1164
+#: model:ir.actions.act_window,name:pos.act_pos_session_orders
+#: model:ir.actions.act_window,name:pos.action_pos_order_filtered
+#: model:ir.actions.act_window,name:pos.action_pos_pos_form
+#: model:ir.model.fields,field_description:pos.field_pos_session_order_ids
+#: model:ir.ui.menu,name:pos.menu_pos
+#: model:ir.ui.menu,name:pos.menu_point_ofsale
+#: model:ir.ui.menu,name:pos.menu_report_pos_order_all
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_config_kanban
+#, python-format
+msgid "Orders"
+msgstr ""
+
+#. module: pos
+#: model:ir.actions.act_window,name:pos.action_report_pos_order_all
+#: model:ir.actions.act_window,name:pos.action_report_pos_order_all_filtered
+msgid "Orders Analysis"
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/models/pos_config.py:180
+#, fuzzy, python-format
+msgid "POS Order %s"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_order_line_form
+msgid "POS Order line"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_order_line
+msgid "POS Order lines"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_order_tree
+msgid "POS Orders"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_order_tree_all_sales_lines
+msgid "POS Orders lines"
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/models/pos_config.py:191
+#, fuzzy, python-format
+msgid "POS order line %s"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_report_pos_order_search
+msgid "POS ordered created during current year"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_account_bank_statement_line_pos_statement_id
+msgid "POS statement"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_order_amount_paid
+#: selection:pos.order,state:0 selection:report.pos.order,state:0
+msgid "Paid"
+msgstr "Ordainduta"
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_category_parent_id
+msgid "Parent Category"
+msgstr "Goi kategoria"
+
+#. module: pos
+#: model:ir.model,name:pos.model_res_partner
+#: model:ir.model.fields,field_description:pos.field_report_pos_order_partner_id
+#: model_terms:ir.ui.view,arch_db:pos.report_statement
+msgid "Partner"
+msgstr "Kidea"
+
+#. module: pos
+#: model:pos.category,name:pos.partner_services
+msgid "Partner Services"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/gui.js:263
+#, python-format
+msgid "Password ?"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_payment
+msgid "Pay Order"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:121
+#: code:addons/pos/static/src/xml/pos.xml:590
+#: code:addons/pos/wizard/pos_payment.py:51
+#: model:ir.actions.act_window,name:pos.action_pos_payment
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_pos_form
+#, python-format
+msgid "Payment"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_make_payment_payment_date
+msgid "Payment Date"
+msgstr ""
+
+#. module: pos
+#: model:ir.actions.act_window,name:pos.action_account_journal_form
+#: model:ir.ui.menu,name:pos.menu_action_account_journal_form_open
+msgid "Payment Methods"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_make_payment_journal_id
+msgid "Payment Mode"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_make_payment_payment_name
+msgid "Payment Reference"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_iface_payment_terminal
+msgid "Payment Terminal"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.actions.act_window,help:pos.action_account_journal_form
+msgid ""
+"Payment methods are defined by accounting journals having the\n"
+"                field <i>PoS Payment Method</i> checked. In order to be "
+"useable\n"
+"                from the touchscreen interface, you must set the payment "
+"method\n"
+"                on the <i>Point of Sale</i> configuration."
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_order_statement_ids
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_pos_form
+msgid "Payments"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.peche
+#: model:product.template,name:pos.peche_product_template
+msgid "Peaches"
+msgstr ""
+
+#. module: pos
+#: model:ir.filters,name:pos.filter_orders_per_session
+msgid "Per session"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_order_user_id
+msgid ""
+"Person who uses the cash register. It can be a reliever, a student or an "
+"interim employee."
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:347
+#: code:addons/pos/static/src/xml/pos.xml:382
+#: code:addons/pos/static/src/xml/pos.xml:453
+#, python-format
+msgid "Phone"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1261
+#, python-format
+msgid "Phone:"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_order_picking_id
+msgid "Picking"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_picking_type_id
+#: model:ir.model.fields,field_description:pos.field_pos_order_picking_type_id
+msgid "Picking Type"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.pina_colada
+#: model:product.template,name:pos.pina_colada_product_template
+msgid "Pina Colada"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/screens.js:1876
+#, python-format
+msgid "Please Confirm Large Amount"
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/models/pos_order.py:272
+#, python-format
+msgid "Please define income account for this product: \"%s\" (id:%d)."
+msgstr "Please define income account for this product: \"%s\" (id:%d)."
+
+#. module: pos
+#: code:addons/pos/models/pos_order.py:437
+#, python-format
+msgid "Please provide a partner for the sale."
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:474
+#, python-format
+msgid "Please select a payment method."
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/screens.js:1908
+#, python-format
+msgid "Please select the Customer"
+msgstr ""
+
+#. module: pos
+#: model:stock.picking.type,name:pos.picking_type_posout
+msgid "PoS Orders"
+msgstr ""
+
+#. module: pos
+#: model:ir.actions.act_window,name:pos.action_pos_config_kanban
+#: model:ir.actions.act_window,name:pos.action_pos_config_pos
+#: model:ir.model,name:pos.model_pos_order
+#: model:ir.model.fields,field_description:pos.field_pos_order_config_id
+#: model:ir.model.fields,field_description:pos.field_pos_session_config_id
+#: model:ir.model.fields,field_description:pos.field_report_pos_order_config_id
+#: model:ir.ui.menu,name:pos.menu_point_root
+#: model:ir.ui.menu,name:pos.menu_pos_config_pos
+#: model_terms:ir.ui.view,arch_db:pos.product_template_form_view
+#: model_terms:ir.ui.view,arch_db:pos.res_users_form_view
+#: model_terms:ir.ui.view,arch_db:pos.view_account_journal_pos_user_form
+#: model_terms:ir.ui.view,arch_db:pos.view_partner_property_form
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_session_search
+#: model_terms:ir.ui.view,arch_db:pos.view_sale_config_settings_form_pos
+msgid "Point of Sale"
+msgstr "Saltokia"
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_report_pos_order_graph
+#: model_terms:ir.ui.view,arch_db:pos.view_report_pos_order_pivot
+#: model_terms:ir.ui.view,arch_db:pos.view_report_pos_order_search
+msgid "Point of Sale Analysis"
+msgstr "Saltokiaren azterketa"
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_product_template_pos_categ_id
+msgid "Point of Sale Category"
+msgstr "Kategorien saltokia"
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_config_search
+msgid "Point of Sale Config"
+msgstr "Saltokien konfigurazioa"
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_config_form
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_config_tree
+msgid "Point of Sale Configuration"
+msgstr "Saltokien konfigurazioa"
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_group_pos_manager_id
+msgid "Point of Sale Manager Group"
+msgstr "Talde administratzailearen salmenta puntua"
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_name
+msgid "Point of Sale Name"
+msgstr "Saltokiaren izena"
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_order_search
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_pos_form
+msgid "Point of Sale Orders"
+msgstr "Aginduen salmenta puntua"
+
+#. module: pos
+#: model:ir.model,name:pos.model_report_pos_order
+msgid "Point of Sale Orders Statistics"
+msgstr ""
+
+#. module: pos
+#: model:ir.model,name:pos.model_pos_make_payment
+msgid "Point of Sale Payment"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_session_form
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_session_search
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_session_tree
+msgid "Point of Sale Session"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_group_pos_user_id
+msgid "Point of Sale User Group"
+msgstr ""
+
+#. module: pos
+#: selection:pos.config.settings,module_pos_restaurant:0
+msgid "Point of sale for shops"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.product_pos_category_form_view
+msgid "Pos Categories"
+msgstr ""
+
+#. module: pos
+#: model:ir.actions.act_window,name:pos.product_pos_category_action
+#: model:ir.ui.menu,name:pos.menu_product_pos_category
+msgid "Pos Product Categories"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_pos_session_username
+msgid "Pos session username"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:326
+#, python-format
+msgid "Postcode"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_order_filter
+#: selection:pos.order,state:0 selection:report.pos.order,state:0
+msgid "Posted"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.pomme_de_terre
+#: model:product.template,name:pos.pomme_de_terre_product_template
+msgid "Potatoes"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_iface_precompute_cash
+msgid "Prefill Cash Payment"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:144
+#, python-format
+msgid "Price"
+msgstr "Price"
+
+#. module: pos
+#: code:addons/pos/models/barcode_rule.py:16
+#, python-format
+msgid "Priced Product"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_pricelist_id
+#: model:ir.model.fields,field_description:pos.field_pos_order_pricelist_id
+#: model:ir.model.fields,field_description:pos.field_report_pos_order_pricelist_id
+msgid "Pricelist"
+msgstr "Pricelist"
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:657
+#: code:addons/pos/static/src/xml/pos.xml:1184
+#, python-format
+msgid "Print Receipt"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_iface_print_via_proxy
+msgid "Print via Proxy"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/chrome.js:377
+#, python-format
+msgid "Printer"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/devices.js:425
+#, python-format
+msgid "Printing Error: "
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_order_line_product_id
+#: model:ir.model.fields,field_description:pos.field_report_pos_order_product_id
+#: model_terms:ir.ui.view,arch_db:pos.report_usersproduct
+#: model_terms:ir.ui.view,arch_db:pos.view_report_pos_order_search
+msgid "Product"
+msgstr "Produktua"
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_report_pos_order_product_categ_id
+#: model_terms:ir.ui.view,arch_db:pos.view_report_pos_order_search
+msgid "Product Category"
+msgstr "Produktu Kategoria"
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.product_pos_category_tree_view
+msgid "Product Product Categories"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_report_pos_order_product_qty
+msgid "Product Quantity"
+msgstr "Produktu kantitatea"
+
+#. module: pos
+#: model:ir.model,name:pos.model_product_template
+#: model:ir.model.fields,field_description:pos.field_report_pos_order_product_tmpl_id
+msgid "Product Template"
+msgstr "Product Template"
+
+#. module: pos
+#: model:ir.actions.act_window,name:pos.product_template_action
+#: model:ir.ui.menu,name:pos.menu_pos_products
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_pos_form
+msgid "Products"
+msgstr "Produktuak"
+
+#. module: pos
+#: model:ir.model,name:pos.model_pos_category
+#: model:ir.model.fields,field_description:pos.field_report_pos_order_pos_categ_id
+msgid "Public Category"
+msgstr ""
+
+#. module: pos
+#: model:ir.actions.act_window,name:pos.action_pos_box_in
+msgid "Put Money In"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:134
+#: model_terms:ir.ui.view,arch_db:pos.report_usersproduct
+#, python-format
+msgid "Qty"
+msgstr "Qty"
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_order_line_qty
+msgid "Quantity"
+msgstr "Kopurua"
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_pos_form
+msgid "Re-Print"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1185
+#, python-format
+msgid "Read Weighting Scale"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_session_form
+msgid "Real Closing Balance"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_config_form
+msgid "Receipt"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_receipt_footer
+msgid "Receipt Footer"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_receipt_header
+msgid "Receipt Header"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_config_form
+msgid "Receipt Printer"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_order_pos_reference
+msgid "Receipt Ref"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.red_label
+#: model:product.template,name:pos.red_label_product_template
+msgid "Red Label"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.poivron_rouges
+#: model:product.template,name:pos.poivron_rouges_product_template
+msgid "Red Pepper"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.red_wine
+#: model:product.template,name:pos.red_wine_product_template
+msgid "Red Wine"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.pamplemousse_rouge_pamplemousse
+#: model:product.template,name:pos.pamplemousse_rouge_pamplemousse_product_template
+msgid "Red grapefruit"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.redbull
+#: model:product.template,name:pos.redbull_product_template
+msgid "RedBull"
+msgstr ""
+
+#. module: pos
+#: model:ir.ui.menu,name:pos.menu_point_rep
+msgid "Reports"
+msgstr "Txostenak"
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_settings_module_pos_reprint
+msgid "Reprints"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1154
+#, python-format
+msgid "Reset"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_session_user_id
+msgid "Responsible"
+msgstr "Arduraduna"
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_settings_module_pos_restaurant
+msgid "Restaurant"
+msgstr ""
+
+#. module: pos
+#: selection:pos.config.settings,module_pos_restaurant:0
+msgid "Restaurant: activate table management"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_config_kanban
+msgid "Resume"
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/models/pos_order.py:652
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_pos_form
+#, python-format
+msgid "Return Products"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_order_amount_return
+msgid "Returned"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.rose_wine
+#: model:product.template,name:pos.rose_wine_product_template
+msgid "Rose Wine"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.safari
+#: model:product.template,name:pos.safari_product_template
+msgid "Safari"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_journal_id
+#: model:ir.model.fields,field_description:pos.field_pos_order_sale_journal
+msgid "Sale Journal"
+msgstr ""
+
+#. module: pos
+#: model:ir.actions.act_window,name:pos.action_pos_order_line
+#: model:ir.actions.act_window,name:pos.action_pos_order_line_day
+#: model:ir.actions.act_window,name:pos.action_pos_order_line_form
+msgid "Sale line"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_config_kanban
+msgid "Sales Orders"
+msgstr "Salmenta eskariak"
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_order_user_id
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_order_filter
+msgid "Salesman"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_report_pos_order_user_id
+#: model_terms:ir.ui.view,arch_db:pos.view_report_pos_order_search
+msgid "Salesperson"
+msgstr "Salesperson"
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/chrome.js:385
+#, python-format
+msgid "Scale"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1160
+#, python-format
+msgid "Scan"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1161
+#, python-format
+msgid "Scan EAN-13"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_iface_scan_via_proxy
+msgid "Scan via Proxy"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/chrome.js:368
+#, python-format
+msgid "Scanner"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.schweppes
+#: model:product.template,name:pos.schweppes_product_template
+msgid "Schweppes"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:424
+#, python-format
+msgid "Search Customers"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:191
+#, python-format
+msgid "Search Products"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_order_filter
+msgid "Search Sales Order"
+msgstr "Search Sales Order"
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_res_users_pos_security_pin
+msgid "Security PIN"
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/models/res_users.py:15
+#, python-format
+msgid "Security PIN can only contain digits"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:432
+#, python-format
+msgid "Select Customer"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/gui.js:237
+#, python-format
+msgid "Select User"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/screens.js:1973
+#, python-format
+msgid "Select tax"
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/models/pos_order.py:202
+#, python-format
+msgid "Selected orders do not have the same session!"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_category_sequence
+msgid "Sequence"
+msgstr "Sekuentzia"
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_order_sequence_number
+msgid "Sequence Number"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:704
+#, python-format
+msgid "Served by"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/screens.js:1921
+#, python-format
+msgid "Server Error"
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/models/pos_config.py:249
+#: model:ir.model.fields,field_description:pos.field_account_bank_statement_pos_session_id
+#: model:ir.model.fields,field_description:pos.field_pos_order_session_id
+#: model:ir.model.fields,field_description:pos.field_report_pos_order_session_id
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_order_filter
+#, python-format
+msgid "Session"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_session_name
+msgid "Session ID"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1043
+#, python-format
+msgid "Session ids:"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_session_form
+msgid "Session:"
+msgstr ""
+
+#. module: pos
+#: model:ir.actions.act_window,name:pos.act_pos_config_sessions
+#: model:ir.actions.act_window,name:pos.action_pos_session
+#: model:ir.actions.act_window,name:pos.action_pos_session_filtered
+#: model:ir.model.fields,field_description:pos.field_pos_config_session_ids
+#: model:ir.ui.menu,name:pos.menu_pos_session_all
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_config_kanban
+msgid "Sessions"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/screens.js:1114
+#, python-format
+msgid "Set Customer"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1153
+#, python-format
+msgid "Set Weight"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_config_form
+msgid "Set to Active"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_config_form
+msgid "Set to Deprecated"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_config_form
+msgid "Set to Inactive"
+msgstr ""
+
+#. module: pos
+#: model:ir.ui.menu,name:pos.menu_pos_global_settings
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_config_kanban
+msgid "Settings"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1263
+#, python-format
+msgid "Shop:"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:42
+#, python-format
+msgid "Skip"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_iface_print_skip_screen
+msgid "Skip Receipt Screen"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_category_image_small
+msgid "Small-sized image"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_category_image_small
+msgid ""
+"Small-sized image of the category. It is automatically resized as a 64x64px "
+"image, with aspect ratio preserved. Use this field anywhere a small image is "
+"required."
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.smirnoff
+#: model:product.template,name:pos.smirnoff_product_template
+msgid "Smirnoff"
+msgstr ""
+
+#. module: pos
+#: model:pos.category,name:pos.soft
+msgid "Soft Drinks"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/gui.js:322
+#, python-format
+msgid "Some orders could not be submitted to"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.sprite
+#: model:product.template,name:pos.sprite_product_template
+msgid "Sprite"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_iface_start_categ_id
+msgid "Start Category"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_session_cash_register_balance_start
+msgid "Starting Balance"
+msgstr ""
+
+#. module: pos
+#: model:ir.actions.report.xml,name:pos.action_report_account_statement
+#: model_terms:ir.ui.view,arch_db:pos.report_statement
+msgid "Statement"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_pos_form
+msgid "Statement lines"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_session_form
+msgid "Statements"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_state
+#: model:ir.model.fields,field_description:pos.field_pos_order_state
+#: model:ir.model.fields,field_description:pos.field_pos_session_state
+#: model:ir.model.fields,field_description:pos.field_report_pos_order_state
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_order_filter
+msgid "Status"
+msgstr "Egoera"
+
+#. module: pos
+#: model:product.product,name:pos.stella_artois
+#: model:product.template,name:pos.stella_artois_product_template
+msgid "Stella Artois"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_stock_location_id
+msgid "Stock Location"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:318
+#: code:addons/pos/static/src/xml/pos.xml:319
+#, python-format
+msgid "Street"
+msgstr "Kalea"
+
+#. module: pos
+#: model:product.product,name:pos.limon
+#: model:product.template,name:pos.limon_product_template
+msgid "Stringers"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:752
+#: model:ir.model.fields,field_description:pos.field_pos_order_line_price_subtotal_incl
+#, python-format
+msgid "Subtotal"
+msgstr "Batura partziala"
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_order_line_price_subtotal
+msgid "Subtotal w/o Tax"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_report_pos_order_price_sub_total
+msgid "Subtotal w/o discount"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1298
+#, python-format
+msgid "Subtotal:"
+msgstr "Batura partziala:"
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1035
+#, python-format
+msgid "Successfully  imported"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1034
+#, python-format
+msgid "Successfully imported"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_session_cash_register_balance_end
+msgid "Sum of opening balance and transactions."
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_order_line
+msgid "Sum of subtotals"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_session_form
+msgid "Summary by Payment Methods"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_res_users_property_purchase_currency_id
+msgid "Supplier Currency"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:765
+#, python-format
+msgid "TOTAL"
+msgstr "GUZTIRA"
+
+#. module: pos
+#: model:ir.actions.act_window,name:pos.action_pos_box_out
+msgid "Take Money Out"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/models/pos_order.py:300
+#: code:addons/pos/static/src/js/screens.js:1983
+#, python-format
+msgid "Tax"
+msgstr "Zerga"
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:355
+#: code:addons/pos/static/src/xml/pos.xml:402
+#, python-format
+msgid "Tax ID"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_order_amount_tax
+#: model:ir.model.fields,field_description:pos.field_pos_order_line_tax_ids
+#: model:ir.model.fields,field_description:pos.field_pos_order_line_tax_ids_after_fiscal_position
+msgid "Taxes"
+msgstr "Zergak"
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1133
+#, python-format
+msgid "Taxes:"
+msgstr "Zergak :"
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:684
+#, python-format
+msgid "Tel:"
+msgstr "Tel:"
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:492
+#, python-format
+msgid "Tendered"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.tequila
+#: model:product.template,name:pos.tequila_product_template
+msgid "Tequila"
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/models/pos_order.py:260
+#, python-format
+msgid "The POS order must have lines when calling this method"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:887
+#, python-format
+msgid ""
+"The Point of Sale could not find any product, client, employee\n"
+"                    or action associated with the scanned barcode."
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/models/pos_config.py:150
+#, python-format
+msgid ""
+"The company of a payment method is different than the one of point of sale"
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/models/pos_config.py:145
+#, python-format
+msgid ""
+"The company of the sale journal is different than the one of point of sale"
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/models/pos_config.py:140
+#, python-format
+msgid ""
+"The company of the stock location is different than the one of point of sale"
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/models/pos_config.py:155
+#, python-format
+msgid ""
+"The default fiscal position must be included in the available fiscal "
+"positions of the point of sale"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_config_iface_tax_included
+msgid ""
+"The displayed prices will always include all taxes, even if the taxes have "
+"been setup differently"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_config_proxy_ip
+msgid ""
+"The hostname or ip address of the hardware proxy, Will be autodetected if "
+"left empty"
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/models/pos_session.py:93
+#: sql_constraint:pos.session:0
+#, python-format
+msgid "The name of this POS Session must be unique !"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/screens.js:1916
+#, python-format
+msgid "The order could not be sent"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/screens.js:1927
+#, python-format
+msgid "The order could not be sent to the server due to an unknown error"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_config_iface_precompute_cash
+msgid ""
+"The payment input will behave similarily to bank payment input, and will be "
+"prefilled with the exact due amount"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_order_config_id
+#: model:ir.model.fields,help:pos.field_pos_session_config_id
+msgid "The physical point of sale you will use."
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_config_iface_start_categ_id
+msgid ""
+"The point of sale will display this product category by default. If no "
+"category is specified, all available products will be shown"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_config_iface_display_categ_images
+msgid "The product categories will be displayed with pictures."
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_config_tip_product_id
+msgid ""
+"The product used to encode the customer tip. Leave empty if you do not "
+"accept tips."
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/screens.js:1260
+#, python-format
+msgid "The provided file could not be read due to an unknown error"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_config_iface_print_skip_screen
+msgid ""
+"The receipt screen will be skipped if the receipt can be printed "
+"automatically."
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_config_iface_print_auto
+msgid "The receipt will automatically be p-rinted at the end of each order"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/screens.js:1922
+#, python-format
+msgid "The server encountered an error while receiving your order."
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_open_statement
+msgid ""
+"The system will open all cash registers, so that you can start recording "
+"payments. We suggest you to control the opening balance of each register, "
+"using their CashBox tab."
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_config_settings_module_pos_mercury
+msgid "The transactions are processed by MercuryPay"
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/models/pos_session.py:215
+#, python-format
+msgid "The type of the journal for your payment method should be bank or cash "
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_session_cash_register_balance_end
+msgid "Theoretical Closing Balance"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:94
+#, python-format
+msgid ""
+"There are pending operations that could not be saved into the database, are "
+"you sure you want to exit?"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/screens.js:1867
+#, python-format
+msgid ""
+"There is no cash payment method available in this point of sale to handle "
+"the change.\n"
+"\n"
+" Please pay the exact amount or add a cash payment method in the point of "
+"sale configuration"
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/wizard/pos_box.py:21
+#, python-format
+msgid "There is no cash register for this PoS Session"
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/models/pos_order.py:607
+#, python-format
+msgid ""
+"There is no receivable account defined to make payment for the partner: \"%s"
+"\" (id:%d)."
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/models/pos_order.py:605
+#, python-format
+msgid "There is no receivable account defined to make payment."
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/screens.js:1838
+#, python-format
+msgid ""
+"There must be at least one product in your order before it can be validated"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_res_users_property_purchase_currency_id
+msgid ""
+"This currency will be used, instead of the default one, for purchases from "
+"the current partner"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_res_users_property_delivery_carrier_id
+msgid "This delivery method will be used when invoicing from picking."
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_account_journal_amount_authorized_diff
+msgid ""
+"This field depicts the maximum difference allowed between the ending balance "
+"and the theoretical cash when closing a session, for non-POS managers. If "
+"this maximum is reached, the user will have an error message at the closing "
+"of his session saying that he needs to contact his manager."
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_category_image
+msgid ""
+"This field holds the image used as image for the cateogry, limited to "
+"1024x1024px."
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_config_group_pos_manager_id
+msgid ""
+"This field is there to pass the id of the pos manager group to the point of "
+"sale client"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_config_group_pos_user_id
+msgid ""
+"This field is there to pass the id of the pos user group to the point of "
+"sale client"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_config_settings_module_pos_restaurant
+msgid ""
+"This module adds several restaurant features to the Point of Sale: \n"
+"\n"
+"- Bill Printing: Allows you to print a receipt before the order is paid \n"
+"\n"
+"- Bill Splitting: Allows you to split an order into different orders \n"
+"\n"
+"- Kitchen Order Printing: allows you to print orders updates to kitchen or "
+"bar printers"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/chrome.js:262
+#, python-format
+msgid ""
+"This operation will permanently destroy all paid orders from the local "
+"storage. You will lose all the data. This operation cannot be undone."
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/chrome.js:272
+#, python-format
+msgid ""
+"This operation will permanently destroy all unpaid orders from all sessions "
+"that have been put in the local storage. You will lose all the data and exit "
+"the point of sale. This operation cannot be undone."
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_config_sequence_id
+msgid ""
+"This sequence is automatically created by Odoo but you can change it to "
+"customize the reference numbers of your orders."
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_product_template_pos_categ_id
+msgid "Those categories are used to group similar products for point of sale."
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:631
+#, python-format
+msgid "Tip"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_tip_product_id
+msgid "Tip Product"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_product_template_to_weight
+msgid "To Weigh With Scale"
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/models/pos_order.py:638
+#, python-format
+msgid ""
+"To return product(s), you need to open a session that will be used to "
+"register the refund."
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_session_search
+msgid "Today"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_order_amount_total
+msgid "Total"
+msgstr "Total"
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_session_cash_register_total_entry_encoding
+msgid "Total Cash Transaction"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_report_pos_order_total_discount
+msgid "Total Discount"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_report_pos_order_price_total
+msgid "Total Price"
+msgstr "Guztira"
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:802
+#, python-format
+msgid "Total Taxes"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_session_cash_register_total_entry_encoding
+msgid "Total of all paid sale orders"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_session_cash_register_balance_end_real
+msgid "Total of closing cash control lines."
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,help:pos.field_pos_session_cash_register_balance_start
+msgid "Total of opening cash control lines."
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_order_line
+msgid "Total qty"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1132
+#: code:addons/pos/static/src/xml/pos.xml:1318
+#, python-format
+msgid "Total:"
+msgstr "Guztira:"
+
+#. module: pos
+#: code:addons/pos/models/pos_order.py:312
+#, python-format
+msgid "Trade Receivables"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.tuborg
+#: model:product.template,name:pos.tuborg_product_template
+msgid "Tuborg"
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/models/pos_session.py:134
+#, python-format
+msgid ""
+"Unable to open the session. You have to assign a sale journal to your point "
+"of sale."
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_order_line_price_unit
+msgid "Unit Price"
+msgstr "Unitateko prezioa"
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:883
+#, python-format
+msgid "Unknown Barcode"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/screens.js:1926
+#, python-format
+msgid "Unknown Error"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/screens.js:1244
+#, python-format
+msgid "Unsupported File Format"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.actions.act_window,help:pos.action_pos_pos_form
+msgid ""
+"Use this menu to browse previous orders. To record new\n"
+"                orders, you may use the menu <i>Your Session</i> for\n"
+"                the touchscreen interface."
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_session_search
+#: model:res.groups,name:pos.group_pos_user
+msgid "User"
+msgstr "Erabiltzailea"
+
+#. module: pos
+#: model:ir.actions.report.xml,name:pos.report_user_label
+msgid "User Labels"
+msgstr ""
+
+#. module: pos
+#: model:ir.actions.report.xml,name:pos.action_report_pos_users_product
+#: model_terms:ir.ui.view,arch_db:pos.report_usersproduct
+msgid "User's Product"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1262
+#, python-format
+msgid "User:"
+msgstr ""
+
+#. module: pos
+#: model:ir.model,name:pos.model_res_users
+msgid "Users"
+msgstr "Erabiltzaileak"
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_uuid
+msgid "Uuid"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:687
+#, python-format
+msgid "VAT:"
+msgstr "VAT:"
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:591
+#, python-format
+msgid "Validate"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_session_form
+msgid "Validate Closing & Post Entries"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.partner_product_6
+#: model:product.template,name:pos.partner_product_6_product_template
+msgid "Vauxoo.com"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_pos_config_iface_vkeyboard
+msgid "Virtual KeyBoard"
+msgstr ""
+
+#. module: pos
+#: model:ir.model.fields,field_description:pos.field_report_pos_order_stock_location_id
+msgid "Warehouse"
+msgstr "Biltegia"
+
+#. module: pos
+#: model:product.product,name:pos.water
+#: model:product.template,name:pos.water_product_template
+msgid "Water"
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/models/barcode_rule.py:15
+#, python-format
+msgid "Weighted Product"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1179
+#, python-format
+msgid "Weighting"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.white_russian
+#: model:product.template,name:pos.white_russian_product_template
+msgid "White Russian"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.white_wine
+#: model:product.template,name:pos.white_wine_product_template
+msgid "White Wine"
+msgstr ""
+
+#. module: pos
+#: model:pos.category,name:pos.wine
+msgid "Wine"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1105
+#: code:addons/pos/static/src/xml/pos.xml:1282
+#, python-format
+msgid "With a"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_report_pos_order_search
+msgid "Year"
+msgstr "Urtea"
+
+#. module: pos
+#: model:product.product,name:pos.poivron_jaunes
+#: model:product.template,name:pos.poivron_jaunes_product_template
+msgid "Yellow Peppers"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.tea
+#: model:product.template,name:pos.tea_product_template
+msgid "Yellow Tea"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_session_form
+msgid ""
+"You can define another list of available currencies on the\n"
+"                                <i>Cash Registers</i> tab of the"
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/models/pos_order.py:396
+#, python-format
+msgid ""
+"You cannot change the partner of a POS order for which an invoice has "
+"already been issued."
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/models/pos_session.py:25
+#, python-format
+msgid ""
+"You cannot confirm all orders of this session, because they have not the "
+"'paid' status"
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/models/pos_session.py:117
+#, python-format
+msgid ""
+"You cannot create two active sessions related to the same point of sale!"
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/models/pos_session.py:112
+#, python-format
+msgid "You cannot create two active sessions with the same responsible!"
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/models/product.py:21
+#, python-format
+msgid ""
+"You cannot delete a product saleable in point of sale while a session is "
+"still opened."
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/screens.js:1848
+#, python-format
+msgid ""
+"You cannot have a negative amount in a Bank payment. Use a cash payment "
+"method to return money to the customer."
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/models/pos_session.py:231
+#, python-format
+msgid ""
+"You cannot use the session of another users. This session is owned by %s. "
+"Please first close this one to use this point of sale."
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/wizard/pos_open_statement.py:18
+#, python-format
+msgid ""
+"You have to define which payment method must be available in the point of "
+"sale by reusing existing bank and cash through \"Accounting / "
+"Configuration / Journals / Journals\". Select a journal and check the field "
+"\"PoS Payment Method\" from the \"Point of Sale\" tab. You can also create "
+"new payment methods directly from menu \"PoS Backend / Configuration / "
+"Payment Methods\"."
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/models/pos_order.py:621
+#, python-format
+msgid "You have to open at least one cashbox."
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/models/pos_order.py:724
+#, python-format
+msgid "You have to select a pricelist in the sale form !"
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/models/pos_order.py:712
+#, python-format
+msgid ""
+"You have to select a pricelist in the sale form !\n"
+"Please set one before choosing a product."
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.actions.act_window,help:pos.product_template_action
+msgid ""
+"You must define a product for everything you sell through\n"
+"                the point of sale interface."
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/screens.js:1909
+#, python-format
+msgid "You need to select the customer before you can invoice an order."
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/models/pos_session.py:123
+#, python-format
+msgid "You should assign a Point of Sale to your session."
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/chrome.js:54
+#, python-format
+msgid "You will lose any data associated with the current order"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/screens.js:1189
+#, python-format
+msgid "Your Internet connection is probably down."
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/models/pos_session.py:213
+#, python-format
+msgid ""
+"Your ending balance is too different from the theoretical cash closing "
+"(%.2f), the maximum allowed is: %.2f. You can contact your manager to force "
+"it."
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1124
+#, python-format
+msgid "Your shopping cart is empty"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:327
+#, python-format
+msgid "ZIP"
+msgstr "Posta kodea"
+
+#. module: pos
+#: model:product.product,name:pos.courgette
+#: model:product.template,name:pos.courgette_product_template
+msgid "Zucchini"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1097
+#, python-format
+msgid "at"
+msgstr ""
+
+#. module: pos
+#: model:ir.model,name:pos.model_barcode_rule
+msgid "barcode.rule"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1040
+#, python-format
+msgid "belong to another session:"
+msgstr ""
+
+#. module: pos
+#: model:product.product,name:pos.partner_product_8
+#: model:product.template,name:pos.partner_product_8_product_template
+msgid "camptocamp.com"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1385
+#, python-format
+msgid "caps lock"
+msgstr ""
+
+#. module: pos
+#: model:ir.model,name:pos.model_cash_box_in
+msgid "cash.box.in"
+msgstr ""
+
+#. module: pos
+#: model:ir.model,name:pos.model_cash_box_out
+msgid "cash.box.out"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1412
+#: code:addons/pos/static/src/xml/pos.xml:1454
+#, python-format
+msgid "close"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1370
+#: code:addons/pos/static/src/xml/pos.xml:1447
+#, python-format
+msgid "delete"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1107
+#, python-format
+msgid "discount"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/js/screens.js:1881
+#, python-format
+msgid "for an order of"
+msgstr ""
+
+#. module: pos
+#: code:addons/pos/models/pos_config.py:171
+#, python-format
+msgid "not used"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1034
+#, python-format
+msgid "paid orders"
+msgstr ""
+
+#. module: pos
+#: model_terms:ir.ui.view,arch_db:pos.view_pos_session_form
+msgid "payment method."
+msgstr ""
+
+#. module: pos
+#: model:ir.model,name:pos.model_pos_config
+msgid "pos.config"
+msgstr ""
+
+#. module: pos
+#: model:ir.model,name:pos.model_pos_config_settings
+msgid "pos.config.settings"
+msgstr ""
+
+#. module: pos
+#: model:ir.model,name:pos.model_pos_session
+msgid "pos.session"
+msgstr ""
+
+#. module: pos
+#: model:ir.model,name:pos.model_report_pos_report_invoice
+msgid "report.pos.report_invoice"
+msgstr ""
+
+#. module: pos
+#: model:ir.model,name:pos.model_report_pos_report_statement
+msgid "report.pos.report_statement"
+msgstr ""
+
+#. module: pos
+#: model:ir.model,name:pos.model_report_pos_report_usersproduct
+msgid "report.pos.report_usersproduct"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/models/pos_order.py:139
+#: code:addons/pos/static/src/xml/pos.xml:1397
+#: code:addons/pos/static/src/xml/pos.xml:1452
+#, python-format
+msgid "return"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1398
+#: code:addons/pos/static/src/xml/pos.xml:1409
+#, python-format
+msgid "shift"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1371
+#, python-format
+msgid "tab"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1035
+#, python-format
+msgid "unpaid orders"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1037
+#, python-format
+msgid "unpaid orders could not be imported"
+msgstr ""
+
+#. module: pos
+#. openerp-web
+#: code:addons/pos/static/src/xml/pos.xml:1039
+#, python-format
+msgid "were duplicates of existing orders"
+msgstr ""
+
+#~ msgid "2L Evian"
+#~ msgstr "2L Evian"
+
+#~ msgid "50cl Perrier"
+#~ msgstr "Perrier 50cl"
+
+#~ msgid "<strong>Closing Date</strong>:<br/>"
+#~ msgstr "Amaierako data"
+
+#~ msgid ""
+#~ "<strong>Company</strong>:\n"
+#~ "                            <br/>"
+#~ msgstr "Enpresa"
+
+#~ msgid "<strong>Currency</strong>"
+#~ msgstr "Moneta"
+
+#~ msgid "<strong>Date</strong>"
+#~ msgstr "Data"
+
+#~ msgid "<strong>Description</strong>"
+#~ msgstr "Deskripzioa"
+
+#~ msgid "<strong>Difference</strong>"
+#~ msgstr "Diferentzia"
+
+#~ msgid "<strong>Disc(%)</strong>"
+#~ msgstr "Diska"
+
+#~ msgid "<strong>Disc. (%)</strong>"
+#~ msgstr "Diska"
+
+#~ msgid "<strong>Disc.(%)</strong>"
+#~ msgstr "Diska"
+
+#~ msgid "<strong>End Period</strong>:<br/>"
+#~ msgstr "Amaiera aldia"
+
+#~ msgid "<strong>Ending Balance</strong>"
+#~ msgstr "Amaitze balantzea"
+
+#~ msgid "<strong>Invoiced</strong>"
+#~ msgstr "Fakturatutakoa"
+
+#~ msgid "<strong>Journal</strong>"
+#~ msgstr "Egunerokoa"
+
+#~ msgid "<strong>Net Total</strong>"
+#~ msgstr "Pisu netoa guztira"
+
+#~ msgid "<strong>No. Of Articles</strong>:<br/>"
+#~ msgstr "Artikulu zbk"
+
+#~ msgid "<strong>Order</strong>"
+#~ msgstr "Agindua"
+
+#~ msgid "<strong>Payment</strong>"
+#~ msgstr "Ordainketa"
+
+#~ msgid "<strong>Point of Sale</strong>:<br/>"
+#~ msgstr "Saltokia"
+
+#~ msgid "<strong>Price</strong>"
+#~ msgstr "Prezioa"
+
+#~ msgid ""
+#~ "<strong>Print date</strong>:\n"
+#~ "                            <br/>"
+#~ msgstr "Inprimatu data"
+
+#~ msgid "<strong>Print date</strong>:<br/>"
+#~ msgstr "Inprimatu data"
+
+#~ msgid "<strong>Product</strong>"
+#~ msgstr "Produktua"
+
+#~ msgid "<strong>Qty of product</strong>"
+#~ msgstr "Produktu kantitatea"
+
+#~ msgid "<strong>Quantity</strong>"
+#~ msgstr "Kopurua"
+
+#~ msgid "<strong>Responsible</strong>:<br/>"
+#~ msgstr "<strong>Arduraduna</strong>:<br/>"
+
+#~ msgid "<strong>Sales total(Revenue)</strong>"
+#~ msgstr "Salmenta totala"
+
+#~ msgid "<strong>Start Period</strong>:<br/>"
+#~ msgstr "Hasiera epea"
+
+#~ msgid "<strong>Starting Balance</strong>"
+#~ msgstr "Hasierako balantzea"
+
+#~ msgid "<strong>Status</strong>"
+#~ msgstr "Egoera"
+
+#~ msgid "<strong>Summary</strong>"
+#~ msgstr "Laburpena"
+
+#~ msgid "<strong>Tax</strong>"
+#~ msgstr "Zerga"
+
+#~ msgid "<strong>Taxes</strong>"
+#~ msgstr "Zergak"
+
+#~ msgid "<strong>Total Transactions</strong>"
+#~ msgstr "Transakzioak guztira"
+
+#~ msgid "<strong>Total Without Taxes</strong>"
+#~ msgstr "Zergak gabe guztira"
+
+#~ msgid "<strong>Total discount</strong>"
+#~ msgstr "Deskontuak gutira"
+
+#~ msgid "<strong>Total invoiced</strong>"
+#~ msgstr "Guztira fakturatzen"
+
+#~ msgid "<strong>Total of the day</strong>"
+#~ msgstr "Egunak guztira"
+
+#~ msgid "<strong>Total paid</strong>"
+#~ msgstr "Ordaindutakoa guztira"
+
+#~ msgid "<strong>Unit Price</strong>"
+#~ msgstr "Unitate prezioa"
+
+#~ msgid "<strong>Users</strong>:<br/>"
+#~ msgstr "Erabiltzaileak"
+
+#~ msgid "Account"
+#~ msgstr "Kontua"
+
+#~ msgid "Alcohol"
+#~ msgstr "Alkohola"
+
+#~ msgid "Alias Domain"
+#~ msgstr "Domeinu deitura"
+
+#~ msgid "Allow documents sharing"
+#~ msgstr "Partekatzeko dokumentuak onartu"
+
+#~ msgid "Allow external users to sign up"
+#~ msgstr "Onartu kanpoko erabiltzaileak izen emateko"
+
+#~ msgid "Date"
+#~ msgstr "Data"
+
+#~ msgid "Dates"
+#~ msgstr "Data"
+
+#~ msgid "Description"
+#~ msgstr "Deskribapena"
+
+#~ msgid "Error!"
+#~ msgstr "Errorea!"
+
+#~ msgid "Invoices"
+#~ msgstr "Fakturak"
+
+#~ msgid "Reference"
+#~ msgstr "Erreferentzia"
+
+#~ msgid "unknown"
+#~ msgstr "ezezaguna"
