@@ -37,7 +37,7 @@
             odoo.loadMenusPromise = Promise.resolve();
             odoo.loadTemplatesPromise = fetch(`/web/webclient/qweb/${odoo.__session_info__.cache_hashes.qweb}?bundle=web.assets_qweb`).then(doc => doc.text());
         </script>
-
+<script src="https://kit.fontawesome.com/6e6d6b1c2d.js" crossorigin="anonymous"></script>
         <t t-call="pos.assets_common"/>
         <t t-call="web.conditional_assets_tests"/>
         <t t-call-assets="pos.assets_backend_prod_only" />

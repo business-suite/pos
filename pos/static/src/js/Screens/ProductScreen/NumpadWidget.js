@@ -1,5 +1,5 @@
 odoo.define('pos.NumpadWidget', function (require) {
-    'use strict';
+    // 'use strict';
 
     const PosComponent = require('pos.PosComponent');
     const Registries = require('pos.Registries');
@@ -50,6 +50,7 @@ odoo.define('pos.NumpadWidget', function (require) {
             this.trigger('set-numpad-mode', { mode });
         }
         sendInput(key) {
+            this.updateSearch(2);
             this.trigger('numpad-click-input', { key });
         }
         get decimalSeparator() {

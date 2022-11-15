@@ -7,7 +7,7 @@
             <meta http-equiv="cache-control" content="no-cache" />
             <meta http-equiv="pragma" content="no-cache" />
             <link rel="stylesheet" type="text/css" href="/web/static/lib/bootstrap/css/bootstrap.css"/>
-            <link rel="stylesheet" type="text/css" href="/web/static/lib/fontawesome/css/font-awesome.css"/>
+<!--            <script src="https://kit.fontawesome.com/6e6d6b1c2d.js" crossorigin="anonymous"></script>-->
             <link rel="stylesheet" type="text/css" href="/pos/static/src/css/customer_facing_display.css"/>
         </div>
     </t>

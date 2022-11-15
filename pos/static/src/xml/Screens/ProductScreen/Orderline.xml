@@ -54,7 +54,7 @@
                     <li class="info">
                         With a
                         <em>
-                            <t t-esc="props.line.get_discount_str()" />%
+                            <t t-esc="props.line.get_discount_str()" />
                         </em>
                         discount
                     </li>

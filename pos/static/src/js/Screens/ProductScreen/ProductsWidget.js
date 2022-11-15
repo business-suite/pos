@@ -66,6 +66,7 @@ odoo.define('pos.ProductsWidget', function(require) {
             this.env.pos.set('selectedCategoryId', event.detail);
         }
         _updateSearch(event) {
+            console.log(event);
             this.state.searchWord = event.detail;
         }
         _tryAddProduct(event) {

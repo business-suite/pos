@@ -56,7 +56,7 @@
         ],
         'pos.assets': [
             'web/static/fonts/fonts.scss',
-            'web/static/lib/fontawesome/css/font-awesome.css',
+            # 'web/static/lib/fontawesome/css/font-awesome.css',
             'web/static/lib/daterangepicker/daterangepicker.css',
             'pos/static/src/css/pos.css',
             'pos/static/src/css/keyboard.css',
@@ -66,7 +66,8 @@
             'pos/static/src/css/popups/cash_opening_popup.css',
             'pos/static/src/css/popups/closing_pos_popup.css',
             'pos/static/src/css/popups/money_details_popup.css',
-            'web/static/src/legacy/scss/fontawesome_overridden.scss',
+            # 'web/static/src/legacy/scss/fontawesome_overridden.scss',
+            # 'pos/static/src/js/faw.js',
             'pos/static/lib/html2canvas.js',
             'pos/static/lib/backbone/backbone.js',
             'pos/static/lib/waitfont.js',
