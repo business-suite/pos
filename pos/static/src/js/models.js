@@ -2179,6 +2179,7 @@ exports.Orderline = Backbone.Model.extend({
     },
     // sets a discount [0,100]%
     set_discount: function(discount){
+        // console.log(discount);
         var parsed_discount = typeof(discount) === 'number' ? discount : isNaN(parseFloat(discount)) ? 0 : field_utils.parse.float('' + discount);
         var disc = Math.min(Math.max(parsed_discount || 0, 0),100);
         this.discount = disc;
@@ -2187,6 +2188,7 @@ exports.Orderline = Backbone.Model.extend({
     },
     // returns the discount [0,100]%
     get_discount: function(){
+        // console.log(this.discount)
         return this.discount;
     },
     get_discount_str: function(){

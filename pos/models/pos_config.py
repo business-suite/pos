@@ -80,8 +80,8 @@ class PosConfig(models.Model):
     selectable_categ_ids = fields.Many2many('pos.category', compute='_compute_selectable_categories')
     iface_display_categ_images = fields.Boolean(string='Display Category Pictures',
         help="The product categories will be displayed with pictures.")
-    restrict_price_control = fields.Boolean(string='Restrict Price Modifications to Managers',
-        help="Only users with Manager access rights for PoS app can modify the product prices on orders.")
+    # restrict_price_control = fields.Boolean(string='Restrict Price Modifications to Managers',
+    #     help="Only users with Manager access rights for PoS app can modify the product prices on orders.")
     cash_control = fields.Boolean(string='Advanced Cash Control', compute='_compute_cash_control', help="Check the amount of the cashbox at opening and closing.")
     set_maximum_difference = fields.Boolean('Set Maximum Difference', help="Set a maximum difference allowed between the expected and counted money during the closing of the session.")
     receipt_header = fields.Text(string='Receipt Header', help="A short text that will be inserted as a header in the printed receipt.")
