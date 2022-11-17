@@ -46,7 +46,7 @@ odoo.define('pos_price.PriceButton', function (require) {
     ProductScreen.addControlButton({
         component: PriceButton,
         condition: function () {
-            return this.env.pos.config.restrict_price_control;
+            return true;
         },
     });
 

@@ -91,7 +91,7 @@ odoo.define('pos_discount.QuantityButton', function (require) {
     ProductScreen.addControlButton({
         component: QuantityButton,
         condition: function () {
-            return this.env.pos.config.module_pos_discount && this.env.pos.config.discount_product_id;
+            return true;
         },
     });
 
