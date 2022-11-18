@@ -10,16 +10,13 @@
     'summary': '',
     'description': "",
     'depends': ['pos'],
-    'data': [
-    ],
     'installable': True,
     'assets': {
         'pos.assets': [
-            'pos_discount/static/src/css/pos_discount.css',
-            'pos_discount/static/src/js/**/*',
+            'pos_quantity/static/src/js/**/*',
         ],
         'web.assets_qweb': [
-            'pos_discount/static/src/xml/**/*',
+            'pos_quantity/static/src/xml/**/*',
         ],
     },
     'license': 'LGPL-3',
