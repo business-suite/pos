@@ -1,4 +1,4 @@
-odoo.define('pos_price.NumberPopupPrice', function(require) {
+odoo.define('pos.NumberPopupDiscountManual', function(require) {
     'use strict';
     var core = require('web.core');
     var _t = core._t;
@@ -9,8 +9,8 @@ odoo.define('pos_price.NumberPopupPrice', function(require) {
     const { useListener } = require('web.custom_hooks');
     const Registries = require('pos.Registries');
 
-    // formerly NumberPopupPriceWidget
-    class NumberPopupPrice extends AbstractAwaitablePopup {
+    // formerly NumberPopupDiscountManualWidget
+    class NumberPopupDiscountManual extends AbstractAwaitablePopup {
         /**
          * @param {Object} props
          * @param {Boolean} props.isPassword Show password popup.
@@ -33,7 +33,7 @@ odoo.define('pos_price.NumberPopupPrice', function(require) {
             this.state = useState({ buffer: startingBuffer, toStartOver: this.props.isInputSelected });
             NumberBuffer.use({
                 nonKeyboardInputEvent: 'numpad-click-input',
-                triggerAtEnter: 'accept-input',
+                triggerAtEnter: 'update-selected-orderline',
                 triggerAtEscape: 'close-this-popup',
                 state: this.state,
             });
@@ -84,8 +84,8 @@ odoo.define('pos_price.NumberPopupPrice', function(require) {
             return NumberBuffer.get();
         }
     }
-    NumberPopupPrice.template = 'NumberPopupPrice';
-    NumberPopupPrice.defaultProps = {
+    NumberPopupDiscountManual.template = 'NumberPopupDiscountManual';
+    NumberPopupDiscountManual.defaultProps = {
         confirmText: _t('Ok'),
         cancelText: _t('Cancel'),
         title: _t('Confirm ?'),
@@ -95,7 +95,7 @@ odoo.define('pos_price.NumberPopupPrice', function(require) {
         isPassword: false,
     };
 
-    Registries.Component.add(NumberPopupPrice);
+    Registries.Component.add(NumberPopupDiscountManual);
 
-    return NumberPopupPrice;
+    return NumberPopupDiscountManual;
 });

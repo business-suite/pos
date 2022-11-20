@@ -13,7 +13,7 @@
                     <div class="o_setting_right_pane">
                         <label for="manual_discount"/>
                         <div class="text-muted">
-                            Allow discounts per line
+                            Allow discounts manual
                         </div>
                     </div>
                 </div>

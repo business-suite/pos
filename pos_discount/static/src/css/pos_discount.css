@@ -13,6 +13,12 @@
     height: 540px !important;
 }
 .pos .popup-numpad .input-button, .pos .popup-numpad .mode-button{
-    height: 55px !important;
-    width: 55px !important;
+    height: 60px !important;
+    width: 60px !important;
+        border-radius: 0 !important;
+        margin: 3px !important;
+}
+
+.pos .popup-numpad {
+    width: 280px !important;
 }

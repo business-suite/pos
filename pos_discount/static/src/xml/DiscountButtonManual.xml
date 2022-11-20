@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+    <t t-name="DiscountButtonManual" owl="1">
+        <span class="control-button js_discount_manual">
+            <input type="hidden" value="percent" class="recently_value_discount_type"/>
+            <input type="hidden" value="" class="recently_value_discount"/>
+            <i class="fa fa-tag"></i>
+            <span> </span>
+            <span>Manual Discount</span>
+        </span>
+    </t>
+
+</templates>

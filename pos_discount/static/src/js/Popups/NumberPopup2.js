@@ -63,7 +63,8 @@ odoo.define('pos.NumberPopup2', function(require) {
             }
         }
         cancel() {
-            this.setMemoryData()
+            this.setMemoryData();
+            this.trigger('close-popup');
         }
         sendInput(key) {
             this.trigger('numpad-click-input', { key });
