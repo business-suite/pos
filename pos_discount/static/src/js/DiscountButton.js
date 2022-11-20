@@ -84,7 +84,7 @@ odoo.define('pos_discount.DiscountButton', function (require) {
     ProductScreen.addControlButton({
         component: DiscountButton,
         condition: function () {
-            return this.env.pos.config.module_pos_discount && this.env.pos.config.discount_product_id;
+            return true;
         },
     });
 

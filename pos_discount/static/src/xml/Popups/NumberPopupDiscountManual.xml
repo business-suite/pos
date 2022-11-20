@@ -6,7 +6,7 @@
             <Draggable>
                 <div class="popup popup-number" t-att-class="{ 'popup-password': props.isPassword }">
                     <header class="title drag-handle">
-                        Discount Manual
+                        Discount Item
                     </header>
                     <div>
                         <t t-if="props.title == 'percent'">
