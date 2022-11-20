@@ -50,7 +50,7 @@
                         <t t-esc="props.line.get_unit().name" />
                     </li>
                 </t>
-                <t t-if="props.line.get_discount_str() !== '0'">
+                <t t-if="props.line.get_discount() != '0'">
                     <li class="info">
                         With a
                         <em>

@@ -51,44 +51,12 @@ odoo.define('pos_discount.DiscountButtonManual', function (require) {
             let selectedLine = order.get_selected_orderline();
             var discount = "";
             if ($('.recently_value_discount_type').val() == 'percent') {
-                // discount = pc / 100 * selectedLine.get_unit_display_price()
-                // console.log(discount);
                 discount = pc;
-                selectedLine.set_discount(discount)
+                selectedLine.set_discount(discount,selectedLine.get_unit_display_price())
             } else {
                 discount = pc / selectedLine.get_unit_display_price() * 100 ;
                 selectedLine.set_discount(discount,selectedLine.get_unit_display_price(),'amount')
             }
-
-            return;
-            // Remove existing discounts
-            // for (const line of lines) {
-            //     if (line.get_product() === product) {
-            //         order.remove_orderline(line);
-            //     }
-            // }
-
-            // Add discount
-            // We add the price as manually set to avoid recomputation when changing customer.
-            var base_to_discount = order.get_total_without_tax();
-            if (product.taxes_id.length) {
-                var first_tax = this.env.pos.taxes_by_id[product.taxes_id[0]];
-                if (first_tax.price_include) {
-                    base_to_discount = order.get_total_with_tax();
-                }
-            }
-            // console.log($('.recently_value_discount_type').val())
-            // console.log(discount)
-
-            // if (discount < 0) {
-            //     order.add_product(product, {
-            //         price: discount,
-            //         lst_price: discount,
-            //         extras: {
-            //             price_manually_set: true,
-            //         },
-            //     });
-            // }
 
         }
     }

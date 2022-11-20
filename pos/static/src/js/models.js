@@ -2178,12 +2178,16 @@ exports.Orderline = Backbone.Model.extend({
         this.pack_lot_lines  = this.has_product_lot && new PacklotlineCollection(null, {'order_line': this});
     },
     // sets a discount [0,100]%
-    set_discount: function(discount){
-        // console.log(discount);
+    set_discount: function(discount,price=0, type='percent'){
         var parsed_discount = typeof(discount) === 'number' ? discount : isNaN(parseFloat(discount)) ? 0 : field_utils.parse.float('' + discount);
         var disc = Math.min(Math.max(parsed_discount || 0, 0),100);
         this.discount = disc;
-        this.discountStr = '' + disc;
+        let discPercent = disc;
+        console.log(disc);
+        let discAmount = Math.round(disc * price / 100);
+        console.log(price);
+        console.log(discAmount);
+        this.discountStr = '' + discPercent + ' %'+ ' ( '+discAmount + ' '+ this.pos.getCurrencySymbol()+' ) ' ;
         this.trigger('change',this);
     },
     // returns the discount [0,100]%
