@@ -63,8 +63,6 @@ odoo.define('pos_discount.DiscountButton', function (require) {
             } else {
                 discount = -pc;
             }
-            console.log($('.recently_value_discount_type').val())
-            console.log(discount)
 
             if (discount < 0) {
                 order.add_product(product, {

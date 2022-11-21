@@ -30,6 +30,7 @@ odoo.define('pos.ProductsWidgetControlPanel', function(require) {
             return this.env.pos.config.iface_display_categ_images && !this.env.isMobile;
         }
         updateSearch(event) {
+            alert(2);
             this.trigger('update-search', event.target.value);
             if (event.key === 'Enter') {
                 // We are passing the searchWordInput ref so that when necessary,

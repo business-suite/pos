@@ -4,26 +4,26 @@
     <t t-name="NumberPopupDiscountManual" owl="1">
         <div role="dialog" class="modal-dialog">
             <Draggable>
-                <div class="popup popup-number" t-att-class="{ 'popup-password': props.isPassword }">
+                <div class="popup popup-number popup-discount" t-att-class="{ 'popup-password': props.isPassword }">
                     <header class="title drag-handle">
                         Discount Item
                     </header>
                     <div>
                         <t t-if="props.title == 'percent'">
                          <button class="discount_percent mode-button discount selected-mode"
-                                 t-on-mousedown.prevent="discountPercent()">Percent (%)</button>
+                                 t-on-mousedown.prevent="discountPercent()">(%) Percent</button>
                         </t>
                         <t t-else="">
                          <button class="discount_percent mode-button discount"
-                                 t-on-mousedown.prevent="discountPercent()">Percent (%)</button>
+                                 t-on-mousedown.prevent="discountPercent()">(%) Percent</button>
                         </t>
 
                         <t t-if="props.title == 'amount'">
                          <button class="discount_amount mode-button discount selected-mode"
-                                 t-on-mousedown.prevent="discountAmount()">Amount ($)</button>
+                                 t-on-mousedown.prevent="discountAmount()">($) Amount</button>
                         </t>
                         <t t-else="">
-                         <button class="discount_amount mode-button discount" t-on-mousedown.prevent="discountAmount()">Amount ($)</button>
+                         <button class="discount_amount mode-button discount" t-on-mousedown.prevent="discountAmount()">($) Amount</button>
                         </t>
                     </div>
                     <div class="popup-input value active">
@@ -53,19 +53,23 @@
                         <button class="input-button number-char" t-on-mousedown.prevent="sendInput('7')">7</button>
                         <button class="input-button number-char" t-on-mousedown.prevent="sendInput('8')">8</button>
                         <button class="input-button number-char" t-on-mousedown.prevent="sendInput('9')">9</button>
-                        <button t-if="!props.isPassword" class="input-button number-char"
-                                t-on-mousedown.prevent="sendInput('-')">-</button>
-                        <br/>
-                        <button class="input-button numpad-char" t-on-mousedown.prevent="sendInput('Delete')">C</button>
-                        <button class="input-button number-char" t-on-mousedown.prevent="sendInput('0')">0</button>
                         <button class="input-button number-char dot"
                                 t-on-mousedown.prevent="sendInput(decimalSeparator)">
                             <t t-esc="decimalSeparator"/></button>
+
+                        <br/>
+                        <button class="input-button numpad-char" t-on-mousedown.prevent="sendInput('Delete')">C</button>
+                        <button class="input-button number-char" t-on-mousedown.prevent="sendInput('0')">0</button>
                         <button class="input-button numpad-backspace" t-on-mousedown.prevent="sendInput('Backspace')">
                             <img style="pointer-events: none;"
                                  src="/pos/static/src/img/backspace.png" width="24"
                                  height="21" alt="Backspace"/>
                         </button>
+
+                        <button t-if="!props.isPassword" class="input-button number-char"
+                                t-on-mousedown.prevent="sendInput('-')">+/-</button>
+
+
                         <br/>
                     </div>
                     <footer class="footer centered">

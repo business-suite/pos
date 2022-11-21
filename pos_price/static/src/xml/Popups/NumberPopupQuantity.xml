@@ -50,7 +50,7 @@
                                  height="21" alt="Backspace"/>
                         </button>
                         <button t-if="!props.isPassword" class="input-button number-char"
-                                t-on-mousedown.prevent="sendInput('-')">-</button>
+                                t-on-mousedown.prevent="sendInput('-')">+/-</button>
                         <br/>
                     </div>
                     <footer class="footer centered">

@@ -11,19 +11,19 @@
                     <div>
                         <t t-if="props.title == 'percent'">
                          <button class="discount_percent mode-button discount selected-mode"
-                                 t-on-mousedown.prevent="discountPercent()">Percent (%)</button>
+                                 t-on-mousedown.prevent="discountPercent()">(%) Percent</button>
                         </t>
                         <t t-else="">
                          <button class="discount_percent mode-button discount"
-                                 t-on-mousedown.prevent="discountPercent()">Percent (%)</button>
+                                 t-on-mousedown.prevent="discountPercent()">(%) Percent</button>
                         </t>
 
                         <t t-if="props.title == 'amount'">
                          <button class="discount_amount mode-button discount selected-mode"
-                                 t-on-mousedown.prevent="discountAmount()">Amount ($)</button>
+                                 t-on-mousedown.prevent="discountAmount()">($) Amount</button>
                         </t>
                         <t t-else="">
-                         <button class="discount_amount mode-button discount" t-on-mousedown.prevent="discountAmount()">Amount ($)</button>
+                         <button class="discount_amount mode-button discount" t-on-mousedown.prevent="discountAmount()">($) Amount</button>
                         </t>
                     </div>
                     <div class="popup-input value active">

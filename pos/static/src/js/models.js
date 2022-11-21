@@ -2182,11 +2182,8 @@ exports.Orderline = Backbone.Model.extend({
         var parsed_discount = typeof(discount) === 'number' ? discount : isNaN(parseFloat(discount)) ? 0 : field_utils.parse.float('' + discount);
         var disc = Math.min(Math.max(parsed_discount || 0, 0),100);
         this.discount = disc;
-        let discPercent = disc;
-        console.log(disc);
+        let discPercent = Math.round(disc);
         let discAmount = Math.round(disc * price / 100);
-        console.log(price);
-        console.log(discAmount);
         this.discountStr = '' + discPercent + ' %'+ ' ( '+discAmount + ' '+ this.pos.getCurrencySymbol()+' ) ' ;
         this.trigger('change',this);
     },
