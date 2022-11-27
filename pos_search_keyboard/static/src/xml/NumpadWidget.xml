@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+<t t-name="NWidget" owl="1" t-inherit="pos.ProductsWidget" t-inherit-mode="extension">
+         <xpath expr="//div[hasclass('products-widget')]" position="append">
+        <table class="numpad-table">
+
+            <tr>
+    <td><button class="input-button number-char border-left" t-on-click="sendInput('1')">1</button></td>
+                <td><button class="input-button number-char" t-on-click="sendInput('2')">2</button></td>
+                <td><button class="input-button number-char" t-on-click="sendInput('3')">3</button></td>
+                <td rowspan="3" class="enter input-button" t-on-click="sendInput('Enter')">E<br/>N<br/>T<br/>E<br/>R</td>
+  </tr>
+            <tr>
+    <td><button class="input-button number-char border-left" t-on-click="sendInput('4')">4</button></td>
+                <td><button class="input-button number-char" t-on-click="sendInput('5')">5</button></td>
+                <td><button class="input-button number-char" t-on-click="sendInput('6')">6</button></td>
+  </tr>
+            <tr>
+    <td><button class="input-button number-char border-left" t-on-click="sendInput('7')">7</button></td>
+                <td><button class="input-button number-char" t-on-click="sendInput('8')">8</button></td>
+                <td><button class="input-button number-char" t-on-click="sendInput('9')">9</button></td>
+  </tr>
+            <tr>
+               <td><button class="input-button border-left" t-att-class="{ 'disabled-mode': props.disableSign }"
+                        t-on-click="sendInput('-')">C</button></td>
+                <td><button class="input-button number-char" t-on-click="sendInput('0')">0</button></td>
+                <td><button class="input-button" t-on-click="backDelete()"><svg width="24" height="19" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10.9333 14.4667L14.6667 10.7333L18.4 14.4667L19.8333 13.0333L16.0667 9.33333L19.7667 5.63333L18.3333 4.2L14.6667 7.93333L10.9333 4.2L9.5 5.63333L13.2667 9.33333L9.5 13.0333L10.9333 14.4667ZM0 9.33333L5.63333 1.36667C5.92222 0.966667 6.26667 0.638889 6.66667 0.383333C7.06667 0.127778 7.51111 0 8 0H22C22.5556 0 23.0278 0.194444 23.4167 0.583333C23.8056 0.972222 24 1.44444 24 2V16.6667C24 17.2222 23.8056 17.6944 23.4167 18.0833C23.0278 18.4722 22.5556 18.6667 22 18.6667H8C7.51111 18.6667 7.06667 18.5389 6.66667 18.2833C6.26667 18.0278 5.92222 17.7 5.63333 17.3L0 9.33333ZM2.5 9.33333L7.63333 16.6667H22V2H7.63333L2.5 9.33333ZM22 9.33333V2V16.6667V9.33333Z"
+      fill="#444444"/>
+</svg>
+</button></td>
+                <td><button class="show-panel" t-on-click="togglePane()">
+                    <t t-if="!state.status">
+
+                    <svg width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.8 17.4667C1.32 17.4667 0.9 17.2817 0.54 16.9117C0.18 16.5417 0 16.1267 0 15.6667V2.46667C0 1.98667 0.18 1.56667 0.54 1.20667C0.9 0.846671 1.32 0.666672 1.8 0.666672H22.2C22.68 0.666672 23.1 0.846671 23.46 1.20667C23.82 1.56667 24 1.98667 24 2.46667V15.6667C24 16.1267 23.82 16.5417 23.46 16.9117C23.1 17.2817 22.68 17.4667 22.2 17.4667H1.8ZM1.8 15.6667H22.2V2.46667H1.8V15.6667ZM6.6 13.7167H17.4V11.9167H6.6V13.7167ZM3.69 9.96667H5.49V8.16667H3.69V9.96667ZM7.41 9.96667H9.21V8.16667H7.41V9.96667ZM11.1 9.96667H12.9V8.16667H11.1V9.96667ZM14.82 9.96667H16.62V8.16667H14.82V9.96667ZM18.51 9.96667H20.31V8.16667H18.51V9.96667ZM3.69 6.21667H5.49V4.41667H3.69V6.21667ZM7.41 6.21667H9.21V4.41667H7.41V6.21667ZM11.1 6.21667H12.9V4.41667H11.1V6.21667ZM14.82 6.21667H16.62V4.41667H14.82V6.21667ZM18.51 6.21667H20.31V4.41667H18.51V6.21667ZM1.8 15.6667V2.46667V15.6667Z"
+      fill="#444444"/>
+</svg>
+                    </t>
+                    <t t-else="">
+
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 24.4667L7.59 20.0267H16.44L12 24.4667ZM1.8 17.2667C1.32 17.2667 0.9 17.0867 0.54 16.7267C0.18 16.3667 0 15.9467 0 15.4667V2.26667C0 1.78667 0.18 1.36667 0.54 1.00667C0.9 0.646675 1.32 0.466675 1.8 0.466675H22.2C22.68 0.466675 23.1 0.646675 23.46 1.00667C23.82 1.36667 24 1.78667 24 2.26667V15.4667C24 15.9467 23.82 16.3667 23.46 16.7267C23.1 17.0867 22.68 17.2667 22.2 17.2667H1.8ZM1.8 15.4667H22.2V2.26667H1.8V15.4667ZM7.32 13.5167H16.71V11.7167H7.32V13.5167ZM3.51 9.76667H5.31V7.96668H3.51V9.76667ZM7.32 9.76667H9.12V7.96668H7.32V9.76667ZM11.1 9.76667H12.9V7.96668H11.1V9.76667ZM14.91 9.76667H16.71V7.96668H14.91V9.76667ZM18.69 9.76667H20.49V7.96668H18.69V9.76667ZM3.51 6.01667H5.31V4.21668H3.51V6.01667ZM7.32 6.01667H9.12V4.21668H7.32V6.01667ZM11.1 6.01667H12.9V4.21668H11.1V6.01667ZM14.91 6.01667H16.71V4.21668H14.91V6.01667ZM18.69 6.01667H20.49V4.21668H18.69V6.01667ZM1.8 15.4667V2.26667V15.4667Z"
+      fill="#444444"/>
+</svg>
+                    </t>
+
+                    </button>
+                </td>
+            </tr>
+
+</table>
+</xpath>
+    </t>
+
+</templates>

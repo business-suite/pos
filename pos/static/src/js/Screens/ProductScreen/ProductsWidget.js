@@ -72,11 +72,14 @@ odoo.define('pos.ProductsWidget', function(require) {
             const searchResults = this.productsToDisplay;
             // If the search result contains one item, add the product and clear the search.
             if (searchResults.length === 1) {
-                const { searchWordInput } = event.detail;
                 this.trigger('click-product', searchResults[0]);
                 // the value of the input element is not linked to the searchWord state,
                 // so we clear both the state and the element's value.
-                searchWordInput.el.value = '';
+                if(typeof event.detail !== 'string' && event.detail !== null) {
+                    const { searchWordInput } = event.detail;
+                    searchWordInput.el.value = '';
+                }
+                $('.tti').val('');
                 this._clearSearch();
             }
         }

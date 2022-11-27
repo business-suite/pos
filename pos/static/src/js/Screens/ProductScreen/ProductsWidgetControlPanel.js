@@ -12,8 +12,8 @@ odoo.define('pos.ProductsWidgetControlPanel', function(require) {
     class ProductsWidgetControlPanel extends PosComponent {
         constructor() {
             super(...arguments);
-            this.searchWordInput = useRef('search-word-input');
-            this.updateSearch = debounce(this.updateSearch, 100);
+            // this.searchWordInput = useRef('search-word-input');
+            // this.updateSearch = debounce(this.updateSearch, 100);
         }
         mounted() {
             posbus.on('search-product-from-info-popup', this, this.searchProductFromInfo)
@@ -22,30 +22,29 @@ odoo.define('pos.ProductsWidgetControlPanel', function(require) {
             posbus.off('search-product-from-info-popup', this);
         }
 
-        clearSearch() {
-            this.searchWordInput.el.value = '';
-            this.trigger('clear-search');
-        }
+        // clearSearch() {
+        //     this.searchWordInput.el.value = '';
+        //     this.trigger('clear-search');
+        // }
         get displayCategImages() {
             return this.env.pos.config.iface_display_categ_images && !this.env.isMobile;
         }
-        updateSearch(event) {
-            alert(2);
-            this.trigger('update-search', event.target.value);
-            if (event.key === 'Enter') {
-                // We are passing the searchWordInput ref so that when necessary,
-                // it can be modified by the parent.
-                this.trigger('try-add-product', { searchWordInput: this.searchWordInput });
-            }
-        }
+        // updateSearch(event) {
+        //     this.trigger('update-search', event.target.value);
+        //     if (event.key === 'Enter') {
+        //         // We are passing the searchWordInput ref so that when necessary,
+        //         // it can be modified by the parent.
+        //         this.trigger('try-add-product', { searchWordInput: this.searchWordInput });
+        //     }
+        // }
         searchProductFromInfo(productName) {
             this.searchWordInput.el.value = productName;
             this.trigger('switch-category', 0);
             this.trigger('update-search', productName);
         }
-        _toggleMobileSearchbar() {
-            this.trigger('toggle-mobile-searchbar');
-        }
+        // _toggleMobileSearchbar() {
+        //     this.trigger('toggle-mobile-searchbar');
+        // }
         async loadProductFromDB() {
             if(!this.searchWordInput.el.value)
                 return;

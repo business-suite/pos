@@ -4,7 +4,8 @@
     <t t-name="ProductsWidget" owl="1">
       <div class="products-widget">
             <ProductsWidgetControlPanel mobileSearchBarIsShown="props.mobileSearchBarIsShown" breadcrumbs="breadcrumbs" subcategories="subcategories" hasNoCategories="hasNoCategories" />
-            <ProductList products="productsToDisplay" searchWord="searchWord" />
+
+          <ProductList products="productsToDisplay" searchWord="searchWord" />
         </div>
     </t>
 

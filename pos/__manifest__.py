@@ -110,7 +110,6 @@
             'pos/static/src/js/Screens/ProductScreen/Orderline.js',
             'pos/static/src/js/Screens/ProductScreen/OrderSummary.js',
             'pos/static/src/js/Screens/ProductScreen/OrderWidget.js',
-            'pos/static/src/js/Screens/ProductScreen/NumpadWidget.js',
             'pos/static/src/js/Screens/ProductScreen/ActionpadWidget.js',
             'pos/static/src/js/Screens/ProductScreen/CategoryBreadcrumb.js',
             'pos/static/src/js/Screens/ProductScreen/CategoryButton.js',

@@ -153,7 +153,6 @@ var PosDB = core.Class.extend({
     },
     /* saves a record store to the database */
     save: function(store,data){
-        console.log(data)
         localStorage[this.name + '_' + store] = JSON.stringify(data);
         this.cache[store] = data;
     },

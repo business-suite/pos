@@ -187,7 +187,6 @@ odoo.define('pos.ProductScreen', function(require) {
             } else {
                 let { buffer } = event.detail;
                 let val = buffer === null ? 'remove' : buffer;
-                console.log(val)
                 this._setValue(val);
             }
             if (this.env.pos.config.iface_customer_facing_display) {
