@@ -10,7 +10,7 @@
     ],
     'assets': {
         'pos.assets': [
-            'pos_search/static/src/js/*.js',
+            # 'pos_search/static/src/js/*.js',
         ],
         'web.assets_qweb': [
             'pos_search/static/src/xml/search_keyboard.xml',

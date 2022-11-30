@@ -8,7 +8,7 @@
                 <span class="second-span">(<t t-esc="total" />)</span>
             </button>
             <button class="btn-switchpane secondary" t-on-click="trigger('switchpane')">
-                <span class="first-span">Review </span>
+                <span class="first-span">Pay </span>
                 <span class="second-span">(<t t-esc="items_number"/> items)</span>
             </button>
         </div>

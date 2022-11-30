@@ -1,4 +1,4 @@
-odoo.define('pos.NWidget', function (require) {
+odoo.define('pos_search_keyboard.NWidget', function (require) {
     // 'use strict';
     const { useState } = owl;
     const PosComponent = require('pos.PosComponent');
@@ -34,10 +34,14 @@ odoo.define('pos.NWidget', function (require) {
                 this.trigger('toggle-mobile-searchbar');
             }
             if ($('.enter').is(":hidden")) {
-                $('.input-button').show();
+                $('.keyboard__row').show();
+                $('.enter-key').show();
+                $('.key--space').show();
                 this.state.status = true;
             } else {
-                $('.input-button').hide();
+                $('.keyboard__row').hide();
+                $('.enter-key').hide();
+                $('.key--space').hide();
                 this.state.status = false;
             }
         }

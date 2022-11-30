@@ -6,6 +6,7 @@
             <ProductsWidgetControlPanel mobileSearchBarIsShown="props.mobileSearchBarIsShown" breadcrumbs="breadcrumbs" subcategories="subcategories" hasNoCategories="hasNoCategories" />
 
           <ProductList products="productsToDisplay" searchWord="searchWord" />
+           <NWidget/>
         </div>
     </t>
 

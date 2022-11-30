@@ -1,82 +1,182 @@
-/* Title */
-.enter {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 25px;
-    align-items: center;
-    text-align: center;
-    width: 25%;
-    /* Text/Normal */
 
-    color: #444444;
-    font-size: 23px !important;
-    cursor: pointer;
-}
-
-.number-char {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-    display: flex;
-    align-items: center;
-
-    /* Text/Normal */
-
-    color: #444444;
-}
-
-.pos .switchpane .btn-switchpane h1 {
-    margin: 0 !important;
-}
-
-.pos .switchpane .btn-switchpane {
-    padding-bottom: 0 !important;
-}
-
-.numpad-table button {
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-    align-items: center;
+.wrapper {
     width: 100%;
-    height: 100%;
-}
-
-.numpad-table {
-    width: 320px;
-    height: 240px;
+    height: 350px;
+    overflow-x: scroll;
+    overflow-y: clip;
     position: absolute;
+    bottom: 60px;
+}
+
+.keyboard {
+    text-align: center;
+    font-size: 14px;
+    font-family: sans-serif;
+    width: 700px;
+    height: 350px;
+    overflow: auto;
+    display: block;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+
+.keyboard__row {
+    display: inline-block;
+    height: 63px;
+}
+
+.keyboard__row > * {
+    position: relative;
+    background: #333;
+    text-align: center;
+    color: #eee;
+    float: left;
+    /*border-radius: 0.3em;*/
+    /*width: 3.3em;*/
+    height: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+    -webkit-user-select: none;
+
+}
+
+.keyboard__row > div[data-pressed],
+.keyboard__row > div:active {
+    background: #2a2a2a;
+    color: #aaa;
+    position: relative;
+    top: 0.2em;
+    box-shadow: 0 0 0 0.05em black;
+}
+
+.key--w3 {
+    width: 4.6em;
+}
+
+.key--w4 {
+    width: 6em;
+}
+
+.key--w5 {
+    width: 6.5em;
+}
+
+.key--w6 {
+    width: 8.3em;
+}
+
+.key--double > * {
+    padding-top: 0.1em;
+}
+
+.key--letter {
+    line-height: 2.8em;
+    width: 60px;
+    height: 60px;
+    background: #EFEFEF;
+    /* Border/Normal */
+    color: #444444;
+
+    border: 1px solid #BFBFBF;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    display: flex;
+    margin: 3px;
+}
+
+.key--bottom-left > * {
+    position: absolute;
+    text-align: left;
+    bottom: 0.4em;
+    left: 0.4em;
+}
+
+.key--bottom-right > * {
+    position: absolute;
+    text-align: right;
+    bottom: 0.4em;
+    right: 0.4em;
+}
+
+.key--fn > * {
+    font-size: 0.6em;
+    line-height: 1em;
+    padding-top: 1.2em;
+    padding-right: 0.2em;
+    text-align: right;
+    float: right;
+}
+
+.key--word > * {
+    font-size: 0.8em;
+}
+
+.key--arrow--tall > *,
+.key--arrow > * {
+    font-size: 0.5em;
+    line-height: 3em;
+}
+
+.key--arrow {
+    height: 1.8em;
+    margin-top: 1.7em;
+    line-height: 0.5em;
+}
+
+.key--arrow--tall > * {
+    padding-top: 0.2em;
+}
+
+.keyboard > .keyboard__row {
+    text-align: center;
+}
+
+.clear-back, .enter-key {
+    width: 93px;
+    height: 58px;
+    position: absolute;
+    background: #E5E5E5;
+}
+
+.enter-key {
+    cursor:pointer;
+    right: 66px;
+    bottom: 77px;
+
+}
+
+.toggle_button {
+    cursor:pointer;
+    width: 60px;
+    height: 58px;
+    position: absolute;
+    background: #E5E5E5;
+    bottom: 77px;
     right: 0;
-    bottom: 66px;
 }
 
-.pos button, .pos a.button {
-    background: none !important;
-    border-radius: 0 !important;
+.clear-back {
+    cursor:pointer;
+    right: 0;
+    bottom: 143px;
 }
 
-.numpad-table tr {
-    height: 25%;
+.key--space {
+    width: 324px;
+    height: 60px;
+    background: #EFEFEF;
+    border: 1px solid #BFBFBF;
+    border-radius: 4px;
+    margin-top: 3px;
 }
 
-td.enter.input-button {
-    border: 1px solid #bfbfbf !important;
-    background: #EFEFEF !important;
-}
-
-td.input-button {
-    background: #EFEFEF !important;
-}
-
-td {
-    width: 25%;
+.key--space svg {
+    padding-top: 20px;
 }
 
 .btn-switchpane .first-span {
@@ -97,12 +197,6 @@ td {
     color: #444444;
 }
 
-.angles {
-    display: block;
-    float: left;
-    font-size: 16px
-}
-
 .btn-switchpane.secondary {
     background: #1177EE !important;
     color: #FFFFFF !important;
@@ -113,18 +207,21 @@ td {
 }
 
 .btn-switchpane {
-    border: 1px solid #BFBFBF !important;;
-    border-radius: 3px !important;;
+    border: 1px solid #BFBFBF !important;
+    border-radius: 3px !important;
+    padding-top: 15px !important;
 }
-.pos .input-button {
-    display: none;
-}
-@media (pointer: fine), (pointer: none) {
-    .numpad-table {
-        bottom: 30px !important;
-        right: 30px;
+
+@media only screen and (hover: none) and (pointer: coarse) {
+    .first_row, .second_row {
+        margin-left: -40px;
     }
+
 }
-.pos .rightpane button.show-panel {
-    background: rgba(0, 0, 0, 0.1) !important;
+
+@media (pointer: fine), (pointer: none) {
+    .keyboard {
+        position: absolute;
+        right: 485px;
+    }
 }

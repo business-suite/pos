@@ -322,7 +322,7 @@ td {
     padding: 4px 10px;
     font-size: 11px;
     border: 1px solid #cacaca;
-    background: #e2e2e2;
+    background: #EFEFEF;
     border-radius: 3px;
 }
 
@@ -605,7 +605,6 @@ td {
 }
 
 .pos .switchpane .btn-switchpane {
-    background-color: #6ec89b;
     border-radius: 0px;
     color: #FFFFFF;
     font-size: 15px;

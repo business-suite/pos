@@ -116,6 +116,7 @@
             'pos/static/src/js/Screens/ProductScreen/CategorySimpleButton.js',
             'pos/static/src/js/Screens/ProductScreen/HomeCategoryBreadcrumb.js',
             'pos/static/src/js/Screens/ProductScreen/ProductsWidgetControlPanel.js',
+            'pos/static/src/js/Screens/ProductScreen/numpadWidget.js',
             'pos/static/src/js/Screens/ProductScreen/ProductItem.js',
             'pos/static/src/js/Screens/ProductScreen/ProductList.js',
             'pos/static/src/js/Screens/ProductScreen/ProductsWidget.js',
