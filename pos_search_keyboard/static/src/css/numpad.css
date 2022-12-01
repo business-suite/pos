@@ -141,6 +141,7 @@
     height: 58px;
     position: absolute;
     background: #E5E5E5;
+    text-align: center;
 }
 
 .enter-key {
@@ -224,4 +225,7 @@
         position: absolute;
         right: 485px;
     }
+}
+.key--letter:not(.toggle_button), .key--space{
+    display: none;
 }

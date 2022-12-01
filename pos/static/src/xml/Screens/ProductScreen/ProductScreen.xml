@@ -17,7 +17,7 @@
                                 </t>
                             </t>
                         </div>
-                        <div class="subpads">
+                        <div class="subpads xxxx">
                             <t t-set="_actionName">Payment</t>
                             <ActionpadWidget client="client" actionName="_actionName" t-on-switchpane="switchPane" />
                         </div>

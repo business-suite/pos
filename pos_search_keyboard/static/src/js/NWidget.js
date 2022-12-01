@@ -34,14 +34,18 @@ odoo.define('pos_search_keyboard.NWidget', function (require) {
                 this.trigger('toggle-mobile-searchbar');
             }
             if ($('.enter').is(":hidden")) {
-                $('.keyboard__row').show();
-                $('.enter-key').show();
+                // $('.enter-key').show();
                 $('.key--space').show();
+                // $('.clear-back').show();
+                $('.key--letter').show();
+                $('.toggle_button').show();
                 this.state.status = true;
             } else {
-                $('.keyboard__row').hide();
-                $('.enter-key').hide();
+                // $('.enter-key').hide();
                 $('.key--space').hide();
+                // $('.clear-back').hide();
+                $('.key--letter').hide();
+                $('.toggle_button').show();
                 this.state.status = false;
             }
         }
