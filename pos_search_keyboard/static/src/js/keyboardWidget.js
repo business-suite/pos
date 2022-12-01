@@ -1,10 +1,10 @@
-odoo.define('pos_search_keyboard.NWidget', function (require) {
+odoo.define('pos_search_keyboard.keyboardWidget', function (require) {
     // 'use strict';
     const { useState } = owl;
     const PosComponent = require('pos.PosComponent');
     const Registries = require('pos.Registries');
 
-    class NWidget extends PosComponent {
+    class KeyboardWidget extends PosComponent {
         constructor() {
             super(...arguments);
             this.state = useState({
@@ -61,10 +61,10 @@ odoo.define('pos_search_keyboard.NWidget', function (require) {
 
     }
 
-    NWidget.template = 'NWidget';
+    KeyboardWidget.template = 'NWidget';
 
 
-    Registries.Component.add(NWidget);
+    Registries.Component.add(KeyboardWidget);
 
-    return NWidget;
+    return KeyboardWidget;
 });
