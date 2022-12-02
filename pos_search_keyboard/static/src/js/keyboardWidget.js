@@ -61,7 +61,7 @@ odoo.define('pos_search_keyboard.keyboardWidget', function (require) {
 
     }
 
-    KeyboardWidget.template = 'NWidget';
+    KeyboardWidget.template = 'KeyboardWidget';
 
 
     Registries.Component.add(KeyboardWidget);
