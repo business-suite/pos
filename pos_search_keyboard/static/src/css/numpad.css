@@ -226,6 +226,15 @@
         right: 485px;
     }
 }
+
 .key--letter:not(.toggle_button), .key--space{
     display: none;
+}
+
+.product-list-container {
+    z-index:999
+}
+
+.toggle_button {
+    z-index:99999
 }

@@ -34,18 +34,17 @@ odoo.define('pos_search_keyboard.keyboardWidget', function (require) {
                 this.trigger('toggle-mobile-searchbar');
             }
             if ($('.enter').is(":hidden")) {
-                // $('.enter-key').show();
                 $('.key--space').show();
-                // $('.clear-back').show();
                 $('.key--letter').show();
                 $('.toggle_button').show();
+                $('.product-list-container').css('z-index',0);
                 this.state.status = true;
             } else {
-                // $('.enter-key').hide();
                 $('.key--space').hide();
-                // $('.clear-back').hide();
                 $('.key--letter').hide();
                 $('.toggle_button').show();
+                $('.toggle_button').css('z-index',99999);
+                $('.product-list-container').css('z-index',999);
                 this.state.status = false;
             }
         }
