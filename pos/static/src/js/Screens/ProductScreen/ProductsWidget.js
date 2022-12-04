@@ -18,7 +18,7 @@ odoo.define('pos.ProductsWidget', function(require) {
             useListener('try-add-product', this._tryAddProduct);
             useListener('clear-search', this._clearSearch);
             useListener('update-product-list', this._updateProductList);
-            this.state = useState({ searchWord: '' });
+            this.state = useState({ searchWord: '' ,exist: false});
         }
         mounted() {
             this.env.pos.on('change:selectedCategoryId', this.render, this);

@@ -120,6 +120,7 @@
             'pos/static/src/js/Screens/ProductScreen/ProductItem.js',
             'pos/static/src/js/Screens/ProductScreen/ProductList.js',
             'pos/static/src/js/Screens/ProductScreen/ProductsWidget.js',
+            'pos/static/src/js/Screens/ProductScreen/KeyboardWidget.js',
             'pos/static/src/js/Screens/ReceiptScreen/WrappedProductNameLines.js',
             'pos/static/src/js/Screens/ReceiptScreen/OrderReceipt.js',
             'pos/static/src/js/Screens/ReceiptScreen/ReceiptScreen.js',
