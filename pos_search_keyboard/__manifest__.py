@@ -11,6 +11,7 @@
     'assets': {
         'pos.assets': [
             'pos_search_keyboard/static/src/css/numpad.css',
+            'pos_search_keyboard/static/src/js/KeyboardWidget.js',
         ],
         'web.assets_qweb': [
             'pos_search_keyboard/static/src/xml/keyboard.xml',

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <templates id="template" xml:space="preserve">
         <t t-inherit="pos.ProductsWidgetControlPanel" t-inherit-mode="extension">
-<xpath expr="//div[hasclass('products-widget-control')]" position="before">
-<Portal target="'.pos .search-bar-portal'">
+<xpath expr="//div[hasclass('breadcrumbs')]" position="after">
+<div class="search-bar-portal">
 <div class="search-box">
 <span t-if="env.isMobile" class="icon" t-on-click="_toggleMobileSearchbar">
 <i t-attf-class="fa {{props.mobileSearchBarIsShown ? 'fa-arrow-left' : 'fa-search'}}"/>
@@ -21,7 +21,7 @@
                placeholder="Search Products..." t-on-keyup="updateSearch"/>
 </t>
 </div>
-</Portal>
+</div>
             </xpath>
     </t>
 </templates>

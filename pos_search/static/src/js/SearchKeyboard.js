@@ -4,35 +4,33 @@ odoo.define('pos_search.SearchBar', function (require) {
     const Registries = require('pos.Registries');
     const ProductsWidgetControlPanel = require('pos.ProductsWidgetControlPanel');
 
-    class SearchBar extends ProductsWidgetControlPanel {
-        constructor() {
-            super();
-            this.searchWordInput = useRef('search-word-input');
-            this.updateSearch = debounce(this.updateSearch, 100);
-        }
+    const SearchBar = (ProductsWidgetControlPanel) =>
 
-        clearSearch() {
-            this.searchWordInput.el.value = '';
-            this.trigger('clear-search');
-        }
+        class extends ProductsWidgetControlPanel {
+            constructor() {
+                super();
+                this.searchWordInput = useRef('search-word-input');
+                this.updateSearch = debounce(this.updateSearch, 100);
+            }
 
-        updateSearch(event) {
-            this.trigger('update-search', event.target.value);
-            if (event.key === 'Enter') {
-                // We are passing the searchWordInput ref so that when necessary,
-                // it can be modified by the parent.
-                this.trigger('try-add-product', { searchWordInput: this.searchWordInput });
+            clearSearch() {
+                this.searchWordInput.el.value = '';
+                this.trigger('clear-search');
+            }
+
+            updateSearch(event) {
+                this.trigger('update-search', event.target.value);
+                if (event.key === 'Enter') {
+                    // We are passing the searchWordInput ref so that when necessary,
+                    // it can be modified by the parent.
+                    this.trigger('try-add-product', {searchWordInput: this.searchWordInput});
+                }
+            }
+
+            _toggleMobileSearchbar() {
+                this.trigger('toggle-mobile-searchbar');
             }
         }
 
-        _toggleMobileSearchbar() {
-            this.trigger('toggle-mobile-searchbar');
-        }
-    }
-
-    SearchBar.template = 'ProductsSearch';
-
-    Registries.Component.add(SearchBar);
-
-    return SearchBar;
+    Registries.Component.extend(ProductsWidgetControlPanel, SearchBar);
 })
