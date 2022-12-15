@@ -4,20 +4,24 @@
     <t t-name="ActionpadWidget" owl="1">
         <div class="actionpad">
 <!--            <button class="button set-customer" t-att-class="{'decentered': isLongName}"-->
-<!--                    t-on-click="trigger('click-customer')">-->
-<!--                <t t-if="!env.isMobile"><i class="fa fa-user" role="img" aria-label="Customer" title="Customer" /></t>-->
-<!--                <t t-if="client">-->
-<!--                    <t t-esc="client.name" />-->
-<!--                </t>-->
-<!--                <t t-else="">-->
-<!--                    Customer-->
-<!--                </t>-->
-<!--            </button>-->
+            <!--                    t-on-click="trigger('click-customer')">-->
+            <!--                <t t-if="!env.isMobile"><i class="fa fa-user" role="img" aria-label="Customer" title="Customer" /></t>-->
+            <!--                <t t-if="client">-->
+            <!--                    <t t-esc="client.name" />-->
+            <!--                </t>-->
+            <!--                <t t-else="">-->
+            <!--                    Customer-->
+            <!--                </t>-->
+            <!--            </button>-->
             <button class="button pay" t-on-click="trigger(props.actionToTrigger or 'click-pay')">
-                <div class="pay-circle" t-att-class="{ 'highlight': props.isActionButtonHighlighted }">
-                    <i class="fa fa-chevron-right" role="img" aria-label="Pay" title="Pay" />
-                </div>
-                <t t-esc="props.actionName" />
+                    <span><svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10.5 0C4.98 0 0.5 4.48 0.5 10C0.5 15.52 4.98 20 10.5 20C16.02 20 20.5 15.52 20.5 10C20.5 4.48 16.02 0 10.5 0ZM10.5 18C6.09 18 2.5 14.41 2.5 10C2.5 5.59 6.09 2 10.5 2C14.91 2 18.5 5.59 18.5 10C18.5 14.41 14.91 18 10.5 18ZM11.39 9.1C9.61 8.51 8.75 8.14 8.75 7.2C8.75 6.18 9.86 5.81 10.56 5.81C11.87 5.81 12.35 6.8 12.46 7.15L14.04 6.48C13.89 6.04 13.22 4.57 11.38 4.25V3H9.63V4.26C7.03 4.82 7.01 7.11 7.01 7.22C7.01 9.49 9.26 10.13 10.36 10.53C11.94 11.09 12.64 11.6 12.64 12.56C12.64 13.69 11.59 14.17 10.66 14.17C8.84 14.17 8.32 12.3 8.26 12.08L6.6 12.75C7.23 14.94 8.88 15.53 9.62 15.71V17H11.37V15.76C11.89 15.67 14.39 15.17 14.39 12.54C14.4 11.15 13.79 9.93 11.39 9.1Z"
+      fill="white"/>
+</svg>
+                </span>
+
+                <span class="first-span">Pay</span>
+                <span class="second-span">(<t t-esc="items_number"/> items)</span>
             </button>
             <button t-if="env.isMobile" class="button back-button" t-on-click="trigger('switchpane')">
                 <i class="fa fa-angle-double-left"/>

@@ -614,7 +614,8 @@ td {
     padding-bottom: 20px;
     height: 60px;
 }
-.btn-switchpane.first{
+
+.btn-switchpane.first {
     margin-right: 6px;
 }
 
@@ -739,18 +740,18 @@ td {
 
 .pos .actionpad {
     padding: 0;
-    margin: 16px;
-    margin-top: 8px;
-    margin-right: 0;
+    /*margin: 16px;*/
+    /*margin-top: 8px;*/
+    /*margin-right: 0;*/
     text-align: center;
     vertical-align: top;
     border: none;
-    border-radius: 0;
-    border-top: 1px solid;
-    border-left: 1px solid;
-    border-color: #bfbfbf;
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px;
+    /*border-radius: 0;*/
+    /*border-top: 1px solid;*/
+    /*border-left: 1px solid;*/
+    /*border-color: #bfbfbf;*/
+    /*border-top-left-radius: 4px;*/
+    /*border-bottom-left-radius: 4px;*/
     flex-grow: 1;
 }
 
@@ -788,15 +789,15 @@ td {
 }
 
 .pos .actionpad .button:first-child {
-    border-top-left-radius: 4px;
+    /*border-top-left-radius: 4px;*/
 }
 
 .pos .actionpad .button:last-child {
-    border-bottom-left-radius: 4px;
+    /*border-bottom-left-radius: 4px;*/
 }
 
 .pos .actionpad .button.pay {
-    height: calc(var(--btn-height-size) * 3);
+    /*height: calc(var(--btn-height-size) * 3);*/
 }
 
 @media screen and (max-width: 768px) {
@@ -3911,5 +3912,30 @@ td {
 .cash-move .error-message {
     color: rgb(197, 52, 0);
     text-align: left;
+    padding-left: 5px;
+}
+
+.button.pay {
+    width: 500px;
+    height: 60px !important;
+    background: #1177EE;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+}
+
+.pos .actionpad .button {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.pos .button.pay .first-span {
+    padding-right: 5px;
     padding-left: 5px;
 }
