@@ -5,10 +5,12 @@
         <div class="summary clearfix">
             <div class="line">
                 <div class="entry total">
+                    <div class="summary clearfix">
                     <span class="badge">Total: </span>
                     <span class="value">
                         <t t-esc="props.total" />
                     </span>
+                    </div>
                     <div t-if="props.tax" class="subentry">
                         Taxes:
                         <span class="value">

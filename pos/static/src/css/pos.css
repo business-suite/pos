@@ -95,10 +95,6 @@ td {
     font-family: 'Lato';
 }
 
-.pos button:hover {
-    background: default;
-}
-
 .pos textarea {
     font-family: "Lato";
     font-size: 20px;
@@ -361,7 +357,7 @@ td {
     margin: 0;
     padding: 0;
     color: gray;
-    background: #875A7B;
+    background: #222222;
     display: flex;
 }
 
@@ -629,7 +625,7 @@ td {
 }
 
 .pos .pane-border {
-    border-right: solid 3px #787878;
+    /*border-right: solid 3px #787878;*/
 }
 
 .pos .leftpane {
@@ -642,7 +638,7 @@ td {
 }
 
 .pos .leftpane .pads {
-    border-top: solid 3px rgb(110, 200, 155);
+    border-top: solid 1px #C9CCD2;
 }
 
 .pos .leftpane .pads .subpads {
@@ -657,8 +653,8 @@ td {
     display: flex;
     -webkit-flex-flow: row wrap;
     flex-flow: row wrap;
-    padding: 8px 16px 0px 11px;
-    margin-bottom: -6px;
+    /*padding: 8px 16px 0px 11px;*/
+    /*margin-bottom: -6px;*/
 }
 
 .pos .popup-control-buttons .control-buttons {
@@ -668,20 +664,21 @@ td {
 .pos .control-button {
     -webkit-flex-grow: 1;
     flex-grow: 1;
-    background: #e2e2e2;
+    background: #fff;
     border: solid 1px #bfbfbf;
     display: inline-block;
     line-height: 38px;
     min-width: 80px;
     text-align: center;
-    border-radius: 3px;
-    padding: 0px 10px;
+    /*border-radius: 3px;*/
+    /*padding: 0px 10px;*/
     font-size: 18px;
-    margin-left: 6px;
-    margin-bottom: 6px;
+    /*margin-left: 6px;*/
+    /*margin-bottom: 6px;*/
     cursor: pointer;
     overflow: hidden;
     transition: all linear 150ms;
+    width: 30%;
 }
 
 .pos .control-button:hover {
@@ -1267,8 +1264,8 @@ td {
 .pos .product {
     position: relative;
     line-height: 100px;
-    width: 122px;
-    height: 115px;
+    width: 138px;
+    height: 157px;
     background: #fff;
     border: 1px solid #e2e2e2;
     border-radius: 3px;
@@ -1279,7 +1276,7 @@ td {
 
 .pos .product .product-img {
     position: relative;
-    width: 120px;
+    width: 138px;
     height: 100px;
     background: white;
     text-align: center;
@@ -1324,15 +1321,27 @@ td {
 
 
 .pos .product .price-tag {
-    position: absolute;
-    top: 2px;
-    right: 2px;
+    /*position: absolute;*/
+    /*top: 2px;*/
+    /*right: 2px;*/
     vertical-align: top;
     color: white;
     line-height: 13px;
-    background: #7f82ac;
+    /*background: #7f82ac;*/
     padding: 2px 5px;
     border-radius: 2px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    color: #1177EE;
+    position: absolute;
+    bottom: 0;
 }
 
 .pos .product .product-info-button {
@@ -1356,7 +1365,7 @@ td {
 }
 
 .pos .product .product-name {
-    position: absolute;
+    /*position: absolute;*/
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
@@ -1375,7 +1384,20 @@ td {
     */
     /*background:#FFF;*/
     padding: 3px;
-    padding-top: 15px;
+    padding-top: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    /* Text/Normal */
+
+    color: #333333;
 }
 
 
@@ -2283,12 +2305,19 @@ td {
     margin-right: 15px;
     margin-left: 15px;
     padding-top: 5px;
-    border-top: solid 2px;
-    border-color: #777;
+    /*border-top: solid 2px;*/
+    /*border-color: #777;*/
 }
 
 .pos .order .summary .total {
-    font-size: 22px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    display: block;
+    align-items: center;
+    color: #333333;
 }
 
 .pos .order .summary .line .subentry {
@@ -2364,10 +2393,16 @@ td {
 .pos .order .orderline .product-name {
     padding: 0;
     display: inline-block;
-    font-weight: bold;
     width: 80%;
     overflow: hidden;
     text-overflow: ellipsis;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
 }
 
 .pos .order .orderline .price {
@@ -3647,7 +3682,8 @@ td {
 }
 
 .cash-move-button:hover {
-    background: rgb(104, 69, 95);
+    background: #000;
+    opacity: 0.5;
     cursor: pointer;
 }
 
@@ -3845,7 +3881,7 @@ td {
 }
 
 .pos .pos-topheader .status-buttons > div:hover {
-    background: rgb(104, 69, 95);
+    background: #222222;
 }
 
 @media screen and (max-width: 768px) {
@@ -3856,6 +3892,11 @@ td {
 
     .ticket-screen .pos-search-bar .search input {
         padding-left: 10px;
+    }
+
+    .pos .actionpad .button {
+        width: 50%;
+        float: right;
     }
 }
 
@@ -3938,4 +3979,22 @@ td {
 .pos .button.pay .first-span {
     padding-right: 5px;
     padding-left: 5px;
+}
+
+button.button.back-button {
+    width: 50%;
+    background: #fff;
+    color: #333333 !important;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+}
+
+.pos ul.orderlines {
+    max-height: 400px;
+    overflow: auto;
 }
