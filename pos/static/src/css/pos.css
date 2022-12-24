@@ -968,7 +968,7 @@ td {
 
 .pos .rightpane-header {
     padding: 0;
-    background: #d3d3d3;
+    background: #ffffff;
     text-align: center;
     display: flex;
     overflow-x: auto;
@@ -1264,7 +1264,7 @@ td {
 .pos .product {
     position: relative;
     line-height: 100px;
-    width: 138px;
+    width: 122px;
     height: 157px;
     background: #fff;
     border: 1px solid #e2e2e2;
@@ -1276,7 +1276,7 @@ td {
 
 .pos .product .product-img {
     position: relative;
-    width: 138px;
+    width: 120px;
     height: 100px;
     background: white;
     text-align: center;
@@ -2298,6 +2298,10 @@ td {
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 10px;
+}
+
+.pos .order .summary.order-summary {
+    border: 1px solid #C8C8C8;
 }
 
 .pos .order .summary .line {
@@ -3689,10 +3693,27 @@ td {
 
 /* Product Screen Search Bar */
 
+.search-bar-portal {
+    right: 0;
+    position: absolute;
+}
+
 .search-bar-portal,
 .search-bar-portal .search-box {
     display: flex;
     flex: 1;
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+    border: 2px solid #C8C8C8;
+    /*width: 200px;*/
+    /*height: 40px;*/
 }
 
 .search-bar-portal .search-box {
@@ -3997,4 +4018,16 @@ button.button.back-button {
 .pos ul.orderlines {
     max-height: 400px;
     overflow: auto;
+}
+
+.pos .breadcrumbs > .breadcrumbs {
+    background: #C8C8C8;
+}
+
+.pos .breadcrumbs {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
 }
