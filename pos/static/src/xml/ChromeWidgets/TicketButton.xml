@@ -10,7 +10,7 @@
 </svg>
 
             </div>
-            <div t-if="!env.isMobile">Orders</div>
+            <div t-if="!env.isMobile">Orders</div><span>(</span> <t t-esc="count"/><span>)</span>
         </div>
     </t>
 
