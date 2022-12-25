@@ -982,20 +982,18 @@ td {
 .pos .product-list {
     /*padding: 10px 5px;*/
     flex-wrap: wrap;
-    gap: 2px;
+    gap: 1px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(122px, 1fr));
-    gap: 3px;
 }
 
 @media screen and (max-width: 768px) {
     .pos .product-list {
         padding: 0px;
-        gap: 0px;
         justify-content: space-between;
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(122px, 1fr));
-        gap: 3px;
+        gap: 1px;
     }
 }
 
