@@ -372,7 +372,7 @@ odoo.define('pos.ProductScreen', function(require) {
                     this.showScreen('PaymentScreen');
                 }
             } else {
-                this.showScreen('PaymentScreen');
+                this.showPopup('PaymentScreen');
             }
         }
         switchPane() {

@@ -91,6 +91,7 @@
             'pos/static/src/js/payment.js',
             'pos/static/src/js/custom_hooks.js',
             'pos/static/src/js/Screens/ProductScreen/ProductScreen.js',
+            'pos/static/src/js/Popups/NumberPopup3.js',
             'pos/static/src/js/Screens/ClientListScreen/ClientLine.js',
             'pos/static/src/js/Screens/ClientListScreen/ClientDetailsEdit.js',
             'pos/static/src/js/Screens/ClientListScreen/ClientListScreen.js',

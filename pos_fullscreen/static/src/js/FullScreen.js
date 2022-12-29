@@ -23,6 +23,14 @@ odoo.define('pos_fullscreen.FullScreen', function (require) {
                 };
 
                 isFullscreen ? document.cancelFullScreen() : element.requestFullScreen();
+
+                if (isFullscreen) {
+                    $('.open-fullscreen-icon').css('display', 'block')
+                    $('.close-open-fullscreen-icon').css('display', 'none')
+                } else {
+                    $('.open-fullscreen-icon').css('display', 'none')
+                    $('.close-open-fullscreen-icon').css('display', 'block')
+                }
             }
         }
 

@@ -5,7 +5,6 @@ odoo.define('pos_discount.DiscountButtonManual', function (require) {
     const ProductScreen = require('pos.ProductScreen');
     const {useListener} = require('web.custom_hooks');
     const Registries = require('pos.Registries');
-    const NumpadWidget = require('pos.NumpadWidget')
 
     class DiscountButtonManual extends PosComponent {
         constructor() {

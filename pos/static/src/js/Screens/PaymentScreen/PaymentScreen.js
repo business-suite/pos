@@ -3,6 +3,7 @@ odoo.define('pos.PaymentScreen', function (require) {
 
     const { parse } = require('web.field_utils');
     const PosComponent = require('pos.PosComponent');
+    const AbstractAwaitablePopup = require('pos.AbstractAwaitablePopup');
     const { useErrorHandlers, useAsyncLockedMethod } = require('pos.custom_hooks');
     const NumberBuffer = require('pos.NumberBuffer');
     const { useListener } = require('web.custom_hooks');
@@ -10,7 +11,7 @@ odoo.define('pos.PaymentScreen', function (require) {
     const { onChangeOrder } = require('pos.custom_hooks');
     const { isConnectionError } = require('pos.utils');
 
-    class PaymentScreen extends PosComponent {
+    class PaymentScreen extends AbstractAwaitablePopup {
         constructor() {
             super(...arguments);
             useListener('delete-payment-line', this.deletePaymentLine);
@@ -429,7 +430,7 @@ odoo.define('pos.PaymentScreen', function (require) {
             await this.render();
         }
     }
-    PaymentScreen.template = 'PaymentScreen';
+    PaymentScreen.template = 'PopupPaymentScreen';
 
     Registries.Component.add(PaymentScreen);
 

@@ -1,13 +1,13 @@
-odoo.define('pos.ProductsWidgetControlPanel', function(require) {
+odoo.define('pos.ProductsWidgetControlPanel', function (require) {
     'use strict';
 
-    const { useRef } = owl.hooks;
-    const { debounce } = owl.utils;
-    const { identifyError } = require('pos.utils');
-    const { ConnectionLostError, ConnectionAbortedError } = require('@web/core/network/rpc_service');
+    const {useRef} = owl.hooks;
+    const {debounce} = owl.utils;
+    const {identifyError} = require('pos.utils');
+    const {ConnectionLostError, ConnectionAbortedError} = require('@web/core/network/rpc_service');
     const PosComponent = require('pos.PosComponent');
     const Registries = require('pos.Registries');
-    const { posbus } = require('pos.utils');
+    const {posbus} = require('pos.utils');
 
     class ProductsWidgetControlPanel extends PosComponent {
         constructor() {
@@ -15,9 +15,11 @@ odoo.define('pos.ProductsWidgetControlPanel', function(require) {
             this.searchWordInput = useRef('search-word-input');
             this.updateSearch = debounce(this.updateSearch, 100);
         }
+
         mounted() {
             posbus.on('search-product-from-info-popup', this, this.searchProductFromInfo)
         }
+
         willUnmount() {
             posbus.off('search-product-from-info-popup', this);
         }
@@ -26,27 +28,36 @@ odoo.define('pos.ProductsWidgetControlPanel', function(require) {
             this.searchWordInput.el.value = '';
             this.trigger('clear-search');
         }
+
         get displayCategImages() {
             return this.env.pos.config.iface_display_categ_images && !this.env.isMobile;
         }
+
         updateSearch(event) {
             this.trigger('update-search', event.target.value);
             if (event.key === 'Enter') {
                 // We are passing the searchWordInput ref so that when necessary,
                 // it can be modified by the parent.
-                this.trigger('try-add-product', { searchWordInput: this.searchWordInput });
+                this.trigger('try-add-product', {searchWordInput: this.searchWordInput});
             }
         }
+
         searchProductFromInfo(productName) {
             this.searchWordInput.el.value = productName;
             this.trigger('switch-category', 0);
             this.trigger('update-search', productName);
         }
+
         _toggleMobileSearchbar() {
             this.trigger('toggle-mobile-searchbar');
         }
+
+        _toggleSearchbar() {
+            this.trigger('toggle-desktop-searchbar');
+        }
+
         async loadProductFromDB() {
-            if(!this.searchWordInput.el.value)
+            if (!this.searchWordInput.el.value)
                 return;
 
             try {
@@ -56,7 +67,7 @@ odoo.define('pos.ProductsWidgetControlPanel', function(require) {
                     args: [['&', ['name', 'ilike', this.searchWordInput.el.value + "%"], ['available_in_pos', '=', true]]],
                     context: this.env.session.user_context,
                 });
-                if(!ProductIds.length) {
+                if (!ProductIds.length) {
                     this.showPopup('ErrorPopup', {
                         title: '',
                         body: this.env._t("No product found"),
@@ -78,6 +89,7 @@ odoo.define('pos.ProductsWidgetControlPanel', function(require) {
             }
         }
     }
+
     ProductsWidgetControlPanel.template = 'ProductsWidgetControlPanel';
 
     Registries.Component.add(ProductsWidgetControlPanel);

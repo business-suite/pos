@@ -33,6 +33,7 @@ odoo.define('pos.Chrome', function(require) {
             useListener('show-main-screen', this.__showScreen);
             useListener('toggle-debug-widget', debounce(this._toggleDebugWidget, 100));
             useListener('toggle-mobile-searchbar', this._toggleMobileSearchBar);
+            useListener('toggle-desktop-searchbar', this._toggleDesktopSearchBar);
             useListener('show-temp-screen', this.__showTempScreen);
             useListener('close-temp-screen', this.__closeTempScreen);
             useListener('close-pos', this._closePos);
@@ -328,6 +329,18 @@ odoo.define('pos.Chrome', function(require) {
                 this.state.mobileSearchBarIsShown = isSearchBarEnabled;
             } else {
                 this.state.mobileSearchBarIsShown = !this.state.mobileSearchBarIsShown;
+            }
+        }
+
+        _toggleDesktopSearchBar() {
+            if ($('.pos-search-bar').is(":hidden")) {
+                $('.desktop-search-icon').css('display', 'none')
+                $('.desktop-search-icon-close').css('display', 'block')
+                $('.pos-search-bar').css('display', 'block')
+            } else {
+                $('.desktop-search-icon').css('display', 'block')
+                $('.desktop-search-icon-close').css('display', 'none')
+                $('.pos-search-bar').css('display', 'none')
             }
         }
         _onPlaySound({ detail: name }) {

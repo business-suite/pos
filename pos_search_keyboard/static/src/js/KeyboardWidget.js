@@ -32,14 +32,14 @@ odoo.define('pos_search_keyboard.keyboardWidget', function (require) {
                 if (!$(".tti")[0]) {
                     this.trigger('toggle-mobile-searchbar');
                 }
-                if ($('.enter').is(":hidden")) {
-                    $('.key--space').show();
+                if ($('.key-space').is(":hidden")) {
+                    // $('.key--space').show();
                     $('.key--letter').show();
                     $('.toggle_button').show();
                     $('.product-list-container').css('z-index', 0);
                     this.state.status = true;
                 } else {
-                    $('.key--space').hide();
+                    // $('.key--space').hide();
                     $('.key--letter').hide();
                     $('.toggle_button').show();
                     $('.toggle_button').css('z-index', 99999);

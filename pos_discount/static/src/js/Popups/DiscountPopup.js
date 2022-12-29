@@ -1,4 +1,4 @@
-odoo.define('pos.NumberPopup2', function(require) {
+odoo.define('pos.DiscountPopup', function(require) {
     'use strict';
     var core = require('web.core');
     var _t = core._t;
@@ -9,8 +9,8 @@ odoo.define('pos.NumberPopup2', function(require) {
     const { useListener } = require('web.custom_hooks');
     const Registries = require('pos.Registries');
 
-    // formerly NumberPopup2Widget
-    class NumberPopup2 extends AbstractAwaitablePopup {
+    // formerly DiscountPopupWidget
+    class DiscountPopup extends AbstractAwaitablePopup {
         /**
          * @param {Object} props
          * @param {Boolean} props.isPassword Show password popup.
@@ -83,8 +83,8 @@ odoo.define('pos.NumberPopup2', function(require) {
             return NumberBuffer.get();
         }
     }
-    NumberPopup2.template = 'NumberPopup2';
-    NumberPopup2.defaultProps = {
+    DiscountPopup.template = 'DiscountPopup';
+    DiscountPopup.defaultProps = {
         confirmText: _t('Ok'),
         cancelText: _t('Cancel'),
         title: _t('Confirm ?'),
@@ -94,7 +94,7 @@ odoo.define('pos.NumberPopup2', function(require) {
         isPassword: false,
     };
 
-    Registries.Component.add(NumberPopup2);
+    Registries.Component.add(DiscountPopup);
 
-    return NumberPopup2;
+    return DiscountPopup;
 });

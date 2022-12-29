@@ -2379,11 +2379,23 @@ td {
 }
 
 .pos .order .orderline.selected {
-    background: rgba(140, 143, 183, 0.2);
+    background: #E8F0FE;
     -webkit-transition: background 250ms ease-in-out;
     -moz-transition: background 250ms ease-in-out;
     transition: background 250ms ease-in-out;
     cursor: default;
+}
+
+.pos .order .orderline:hover {
+    background: #E5E5E5;
+}
+
+.pos .order .orderline:active {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.pos .order .orderline:focus {
+    background: rgba(0, 0, 0, 0.1);
 }
 
 .pos .order .orderline .product-name {
@@ -3749,9 +3761,9 @@ td {
     color: #4f5b66;
     width: 50px;
     height: 50px;
-    background: rgba(0, 0, 0, 0.3);
     box-sizing: border-box;
-    border-left: 1px solid #CCCCCC;
+    border-left: 1.5px solid #CCCCCC;
+    cursor: pointer;
 }
 
 .pos .search-bar-portal span.pos-search-bar {
@@ -4092,4 +4104,16 @@ button.button.back-button {
     line-height: 19px;
     align-items: center;
     color: #FFFFFF;
+}
+
+.desktop-search-icon {
+    display: none;
+}
+
+.close-open-fullscreen-icon {
+    display: none;
+}
+
+.open-fullscreen-icon {
+    display: block;
 }
