@@ -2367,7 +2367,7 @@ td {
 }
 
 .pos .order .orderline:active {
-    background: rgba(140, 143, 183, 0.05);
+     background: #E5E5E5;
     -webkit-transition: background 50ms ease-in-out;
     -moz-transition: background 50ms ease-in-out;
     transition: background 50ms ease-in-out;
@@ -2386,17 +2386,6 @@ td {
     cursor: default;
 }
 
-.pos .order .orderline:hover {
-    background: #E5E5E5;
-}
-
-.pos .order .orderline:active {
-    background: rgba(0, 0, 0, 0.1);
-}
-
-.pos .order .orderline:focus {
-    background: rgba(0, 0, 0, 0.1);
-}
 
 .pos .order .orderline .product-name {
     padding: 0;
@@ -3916,16 +3905,6 @@ td {
         position: absolute;
         right: -1px !important;
         bottom: 32px !important;
-    }
-
-    .pos .wrapper {
-        width: 660px;
-        height: 350px;
-        overflow-x: scroll;
-        overflow-y: clip;
-        position: absolute;
-        bottom: 0 !important;
-        right: -57px;
     }
 
     .first_row, .second_row {

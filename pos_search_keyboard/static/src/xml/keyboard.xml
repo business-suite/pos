@@ -90,15 +90,7 @@
                     </div>
           </div>
             <br></br>
-
-
-    </div>
-
-
-  </div>
-             <div class="fixed-control">
-
-                 <div class="key--letter show-panel toggle_button" t-on-click="togglePane()">
+<div class="key--letter show-panel toggle_button" t-on-click="togglePane()">
                     <t t-if="!state.status">
 
                     <svg width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -116,9 +108,15 @@
 
                     </div>
 
-
-
     </div>
+
+
+  </div>
+
+
+
+
+
     </div>
 </xpath>
     </t>

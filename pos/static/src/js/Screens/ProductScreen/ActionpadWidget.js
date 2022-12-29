@@ -40,6 +40,8 @@ odoo.define('pos.ActionpadWidget', function (require) {
         }
 
         update() {
+            const total = this.order ? this.order.get_total_with_tax() : 0;
+            this.total = this.env.pos.format_currency(total);
             this.items_number = this.order ? this.order.orderlines.reduce((items_number, line) => items_number + line.quantity, 0) : 0;
         }
     }

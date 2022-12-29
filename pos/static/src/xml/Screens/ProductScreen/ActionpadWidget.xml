@@ -17,7 +17,7 @@
 
 
                 <span class="first-span">Pay</span>
-                <span class="second-span">(<t t-esc="items_number"/> items)</span>
+                <span class="second-span">(<t t-esc="total"/>)</span>
             </button>
             <button t-if="env.isMobile" class="button back-button" t-on-click="trigger('switchpane')">
                 <i class="fa fa-angle-double-left"/>
