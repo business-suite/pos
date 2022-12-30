@@ -215,17 +215,21 @@
 }
 
 @media only screen and (hover: none) and (pointer: coarse) {
-    .first_row, .second_row {
-        margin-left: -40px;
+
+    .wrapper {
+        bottom: 65px !important;
     }
 
 }
 
+.keyboard {
+    position: absolute;
+    /*right: 485px;*/
+}
+
+
 @media (pointer: fine), (pointer: none) {
-    .keyboard {
-        position: absolute;
-        /*right: 485px;*/
-    }
+
 }
 
 .key--letter:not(.toggle_button), .key--space {
