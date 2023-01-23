@@ -100,12 +100,12 @@
 }
 
 .o_kanban_card_header_title .o_primary {
-    font-family: 'Roboto';
+    font-family: 'Roboto' !important;
     font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
-    color: #333333;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 23px !important;
+    color: #333333 !important;
 }
 
 .padding0 {
