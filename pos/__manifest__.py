@@ -56,7 +56,6 @@
         ],
         'pos.assets': [
             'web/static/fonts/fonts.scss',
-            # 'web/static/lib/fontawesome/css/font-awesome.css',
             'web/static/lib/daterangepicker/daterangepicker.css',
             'pos/static/src/css/pos.css',
             'pos/static/src/css/keyboard.css',
@@ -66,8 +65,6 @@
             'pos/static/src/css/popups/cash_opening_popup.css',
             'pos/static/src/css/popups/closing_pos_popup.css',
             'pos/static/src/css/popups/money_details_popup.css',
-            # 'web/static/src/legacy/scss/fontawesome_overridden.scss',
-            # 'pos/static/src/js/faw.js',
             'pos/static/lib/html2canvas.js',
             'pos/static/lib/backbone/backbone.js',
             'pos/static/lib/waitfont.js',
@@ -121,7 +118,6 @@
             'pos/static/src/js/Screens/ProductScreen/ProductItem.js',
             'pos/static/src/js/Screens/ProductScreen/ProductList.js',
             'pos/static/src/js/Screens/ProductScreen/ProductsWidget.js',
-            # 'pos/static/src/js/Screens/ProductScreen/KeyboardWidget.js',
             'pos/static/src/js/Screens/ReceiptScreen/WrappedProductNameLines.js',
             'pos/static/src/js/Screens/ReceiptScreen/OrderReceipt.js',
             'pos/static/src/js/Screens/ReceiptScreen/ReceiptScreen.js',
@@ -172,6 +168,7 @@
         ],
         'web.assets_backend': [
             'pos/static/src/scss/pos_dashboard.scss',
+            'pos/static/src/css/pos_customize.css',
             'pos/static/src/js/tours/pos.js',
             'pos/static/src/js/debug_manager.js',
             'pos/static/src/js/web_overrides/pos_config_form.js',

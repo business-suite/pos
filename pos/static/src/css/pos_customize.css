@@ -1,0 +1,128 @@
+/*@media (hover: hover) {*/
+    .pos .payment-screen {
+        width: 670px;
+        height: 507px;
+    }
+
+    .o_pos_kanban .o_kanban_record {
+        width: 320px !important;
+        padding-bottom: 30px !important;
+    }
+
+    .container .o_kanban_card_content {
+        margin-top: 0px;
+    }
+
+    .o_kanban_record .badge {
+        float: right;
+        margin: 0;
+        margin-right: 20px;
+        height: 20px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #FFFFFF;
+        border-radius: 0;
+    }
+
+    .o_kanban_record .o_primary {
+        float: left;
+    }
+
+    .o_list_table {
+        width: 440px !important;
+    }
+
+    .o_column_sortable {
+        width: 200px !important;
+        max-width: 200px !important;
+        background-color: #EEEEEE !important;
+        color: #333333;
+        padding: 10px !important;
+    }
+
+    .o_list_view .o_list_table .o_column_sortable:not(.o_handle_cell):hover::after {
+        opacity: 1;
+    }
+
+    .o_list_view .o_list_table .o_list_record_selector {
+        padding-left: 14px !important;
+        padding: 10px;
+    }
+
+    .table {
+        border: 1px solid #CCCCCC;
+    }
+
+    .table thead th {
+        /*border: 1px solid #CCCCCC !important;*/
+        border-top: none !important;
+        border-bottom: none !important;
+        border-color: #CCCCCC !important;
+    }
+
+    .table td {
+        border-top: 1px solid #CCCCCC !important;
+        border-left: 1px solid #CCCCCC !important;
+        padding: 10px !important;
+    }
+
+    .o_list_view .o_list_table {
+        background: none !important;
+    }
+
+    .table tr {
+        background: none !important;
+    }
+
+    .o_list_view .o_list_table tfoot {
+        display: none;
+    }
+
+
+/*}*/
+
+.btn-fill-primary, .btn-primary {
+    background: #1177EE !important;
+    width: 134px !important;
+    height: 40px !important;
+    padding: 10px !important;
+    gap: 5px !important;
+    border-radius: 0 !important;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    border: none !important;
+}
+
+.o_kanban_card_header_title .o_primary {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #333333;
+}
+
+.padding0 {
+    padding: 0 !important;
+}
+
+.custom-control-label::before, .custom-control-label::after {
+    top: 1px;
+    right: 4px;
+    display: block;
+    width: 17px;
+    height: 17px;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #1166DD;
+    border-color: #1166DD;
+}
+
+

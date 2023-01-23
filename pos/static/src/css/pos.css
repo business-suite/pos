@@ -4168,9 +4168,13 @@ button.button.back-button {
 
 }
 
-@media (pointer: fine), (pointer: none) {
+@media (hover: hover) {
     .pos .payment-screen {
         width: 670px;
         height: 507px;
+    }
+
+    .o_pos_kanban .o_kanban_record {
+        width: 320px !important;
     }
 }
