@@ -170,6 +170,7 @@
             'pos/static/src/scss/pos_dashboard.scss',
             'pos/static/src/css/pos_customize.css',
             'pos/static/src/js/tours/pos.js',
+            'pos/static/src/js/CustomListView.js',
             'pos/static/src/js/debug_manager.js',
             'pos/static/src/js/web_overrides/pos_config_form.js',
         ],
