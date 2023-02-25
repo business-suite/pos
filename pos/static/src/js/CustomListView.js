@@ -7,7 +7,6 @@ odoo.define('pos.CustomListView', function (require) {
             this._super.apply(this, arguments);
             var $recordSelector = $(ev.target).closest('.custom-control-input');
             var $trSelector = $(ev.target).parent().parent().parent();
-            console.log($recordSelector.is(':checked'));
             if($recordSelector.is(':checked')) {
                 $trSelector.css('background', '#E8F0FE');
             } else {

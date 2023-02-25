@@ -167,7 +167,7 @@
         <field name="name">pos.order.kanban</field>
         <field name="model">pos.order</field>
         <field name="arch" type="xml">
-            <kanban class="o_kanban_mobile" create="0" sample="1">
+            <kanban class="o_kanban_mobile o_pos_order_kanban" create="0" sample="1">
                 <field name="name"/>
                 <field name="partner_id"/>
                 <field name="amount_total"/>

@@ -4178,3 +4178,75 @@ button.button.back-button {
         width: 320px !important;
     }
 }
+
+.popup-confirm .right-title {
+    float: right;
+}
+
+.popup-confirm .left-title {
+    float: left;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #333333;
+}
+
+.pos .popup-confirm .title {
+    background: #EEEEEE;
+    margin: 0;
+    padding: 0;
+}
+
+.pos .popup-confirm .left-title {
+    padding: 10px;
+}
+
+.popups .popup-confirm {
+    width: 345px !important;
+    height: 100px !important;
+    border: none !important;
+    border-radius: 0 !important;
+    background: #FFFFFF !important;
+}
+
+.right-title .confirm {
+    display: inline-block;
+    height: 50px;
+    border-top: 1px solid #1177EE;
+    font-size: 16px;
+    padding-right: 5px;
+    color: #FFFFFF;
+    background: #1177EE;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.right-title .cancel svg {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.right-title .confirm svg {
+    padding: 15px 3px 0 5px;
+}
+
+.right-title .cancel {
+    display: inline-block !important;
+    width: 50px !important;
+}
+
+.pos .popup-confirm .body {
+    text-align: left;
+    border-radius: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #333333;
+    margin: 10px;
+}
